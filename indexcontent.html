@@ -8,7 +8,42 @@
 		<p>Progress Report</p>
 		<p>Attached below is an individual progress report of my project so far.</p>
 		<p><a href="https://pwestman.github.io/Week 11 Progress Report.docx"> Week 11 Progress Report</a></p>
+		<p>A view of my setup from the open house. The sensors were mounted on either side of the acrylic gate and a counter was displayed to the screen that incremented or decremented every time an object entered or exited respectively.</p>
 		<p><img src="Open House.JPG" alt="Humber College Open House" style="width:700px;height:500px;"></p>
+		<p>This is the python code that I used to keep track of the count through the gate at the open house:<p/>
+		<script>
+#Program Name: counter.py
+#Author: Paul Westman
+
+import RPi.GPIO as GPIO
+
+GPIO.setmode(GPIO.BOARD)
+GPIO.setup(16,GPIO.IN)
+GPIO.setup(18,GPIO.IN)
+
+count=0
+run=1
+
+try:
+	while True:
+		if GPIO.input(16)==0:
+			if GPIO.input(18)==0:
+				if run==1:
+					count+=1
+					print count
+					run=0
+		elif GPIO.input(18)==0:
+			if GPIO.input(16)==0:
+				if run==1:
+					count-=1
+					print count
+					run=0
+		else:
+			run=1
+
+finally:
+	GPIO.cleanup()
+		</script>
 	 
 	</SECTION>
 	
