@@ -12,4 +12,213 @@
 		<p><a href="https://pwestman.github.io/Deliverables/front-hive.pdf">Acrylic Hive Front Template</a></p>
 		<p><a href="https://pwestman.github.io/Deliverables/side-hive.pdf">Acrylic Side Hive Template</a></p>-->
 	</SECTION>
-  </ARTICLE>
+	
+	<SECTION ID="Section_17">
+	 <H3>Week 13</H3>
+		<p><b>Individual Presentation</b></p>
+		<p>Below is a link to the slides for the Individual Presentation for week 13.</p>
+		<p><a href="https://www.dropbox.com/s/n8uvubxt3cgmsh5/Bee%20Tracker%20Presentation.pptx?dl=0">Bee Tracker Presentation Slides</a></p>
+	</SECTION>
+	
+	<SECTION ID="Section_16">
+	 <H3>Week 12</H3>
+		<p><b>Progress Report</b></p>
+		<p>Attached below is an individual progress report of my project so far. Next week I will present my fully functioning protoype.</p>
+	 <p><a href="https://pwestman.github.io/Deliverables/Week 12 Progress Report.docx"> Week 12 Progress Report</a></p>
+	</SECTION>
+	
+	<SECTION ID="Section_15">
+	 <H3>Week 11</H3>
+		<p><b>Progress Report</b></p>
+		<p>Attached below is an individual progress report of my project so far.</p>
+		<p><a href="https://pwestman.github.io/Deliverables/Week 11 Progress Report.docx"> Week 11 Progress Report</a></p>
+		<p>A view of my setup from the open house. The sensors were mounted on either side of the acrylic gate and a counter was displayed to the screen that incremented or decremented every time an object entered or exited respectively.</p>
+		<p><img src="Images/Open House.JPG" alt="Humber College Open House" style="width:700px;height:500px;"></p>
+		<p>This is the python code that I used to keep track of the count through the gate at the open house:<p/>
+		<code><pre>
+#Program Name: counter.py
+#Author: Paul Westman
+
+import RPi.GPIO as GPIO
+
+GPIO.setmode(GPIO.BOARD)
+GPIO.setup(16,GPIO.IN)
+GPIO.setup(18,GPIO.IN)
+
+count=0
+run=1
+
+try:
+	while True:
+		if GPIO.input(16)==0:
+			if GPIO.input(18)==0:
+				if run==1:
+					count+=1
+					print count
+					run=0
+		elif GPIO.input(18)==0:
+			if GPIO.input(16)==0:
+				if run==1:
+					count-=1
+					print count
+					run=0
+		else:
+			run=1
+
+finally:
+	GPIO.cleanup()
+		</pre></code>
+	 
+	</SECTION>
+	
+	<SECTION ID="Section_14">
+	 <H3>Week 10</H3>
+		<p>Progress Report</p>
+		<p>This week a progess report is due outlining the progress of my project. The file is attached below.</p>
+		<p><a href="https://pwestman.github.io/Deliverables/Progress Report Week 10.docx"> Week 10 Progress Report</a></p>
+	 
+	</SECTION>
+	
+	<SECTION ID="Section_13">
+	 <H3>Week 9</H3>
+		<p>30 Second Build Video</p>
+		<iframe src="https://player.vimeo.com/video/189568474" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		<p><a href="https://vimeo.com/189568474">Build Video - Bee Tracker</a> from <a href="https://vimeo.com/user58499741">Paul Westman</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+		<p>Music: The Stranger by Lord Huron</p>
+	 
+	</SECTION>
+	
+	<SECTION ID="Section_12">
+	 <H3>Week 8</H3>
+		<p>Placard Submission for Fall Open House</p>
+		<p><a href="https://pwestman.github.io/Deliverables/SmartHivePlacard.pub">Smart Hive Placard</a></p>
+		<p><img src="Images/SmartHivePlacard.jpg" alt="Smart Hive Placard" style="width:500px;height:700px;"></p>
+	 
+	</SECTION>
+	
+	<SECTION ID="Section_11">
+	 <H3>Week 7</H3>
+		<p><b>Power Up Milestone</b></p>
+		<p>This week I will be showing a demo of my powered up PCB. The PCB is connected to the GPIO header on my Raspberry Pi. It has an LED light, a temperature sensor, and a light sensor. </p>
+		<p>i2cdetect -y 1 command showing sensor detection of all three sensors on my PCB:</p>
+		<p><img src="Images/i2cdetect.JPG" alt="Sensor Detection" style="width:500px;height:400px;"></p>
+		<p>traffic2B program running in the terminal:</p>
+		<p><img src="Images/traffic2B.JPG" alt="traffic2B" style="width:500px;height:400px;"></p>
+		<p>Red light from traffic2B program:</p>
+		<p><img src="Images/redLight.JPG" alt="Red Light" style="width:500px;height:400px;"></p>
+		<p>Green light from traffic2B program:</p>
+		<p><img src="Images/greenLight.JPG" alt="Green Light" style="width:500px;height:400px;"></p>
+		<p>ghmain program running in the terminal:</p>
+		<p><img src="Images/ghmain.JPG" alt="ghmain" style="width:500px;height:400px;"></p>
+	 
+	</SECTION>
+	
+	<SECTION ID="Section_10">
+	 <H3>Week 6</H3>
+	 <p>So far I am on track with the activities for the project versus the schedule. I have completed the soldering of the components onto the PCB and I am ready to test to see if the connections are vaild. The current mechanical assembly milestone is complete and ready for the power up milestone next week. Some problems that I encountered was acquiring parts that would not take months to be shipped from overseas or that would not be an additional $50 for shipping to get here sooner. To solve this problem I have found that DigiKey will ship overnight and does not cost a fortune to send. The parts that I will still need to acquire are the IR obstacle avoidance sensor and the IR thermometer for inside the hive. The digital scale was ordered and has arrived. It cost a total of $22.99 plus tax, which came in right at our budget of $25. Financially, the project is on track as almost all components have been acquired and I am still under my projected budget.</p>
+	 
+	 <p>This is a picture of the completely soldered PCB. The PCB has yet to be tested and might need some touch ups on the soldering job.</p>
+	 <H5>PCB</H5>
+	 <p><img src="Images/PCB.JPG" alt="PCB" style="width:304px;height:304px;"></p>
+		<p>This is the Raspberry Pi assembled in the case that it was shipped with.</p>
+	 <H5>Raspberry Pi in Case</H5>
+	 <p><img src="Images/rpi.JPG" alt="RPi" style="width:304px;height:350px;"></p>
+	 <p><img src="Images/rpi2.JPG" alt="RPi2" style="width:400px;height:304px;"></p>
+	</SECTION>
+	
+	<SECTION ID="Section_9">
+	 <H3>Week 5</H3>
+	 <p>This week we purchased most fo the materials for our project. I have uploaded my Individual Progress report below as well as some of the receipts for hardware components that we have ordered. Some of the problems that were encountered this week were the time it takes to ship and receive the components that we are looking for. Many of the items wouldn't arrive until the end of October/ mid way through November. I have tried to look in North America but the challenge is that these items are much more expensive, which makes it difficult to stick to our budget.</p>
+	 <p><a href="https://pwestman.github.io/Deliverables/Individual Progress Report.docx">Individual Progress Report</a></p>
+	 <p>Hardware Receipts</p>
+	 <p><a href="https://pwestman.github.io/Deliverables/Digital Scale_Redacted.pdf">Digital Scale</a></p>
+	 <p><a href="https://pwestman.github.io/Deliverables/RaspberryPi_Redacted.pdf">Raspberry Pi</a></p>
+	</SECTION>
+	
+	<SECTION ID="Section_8">
+	 <H3>Week 4</H3>
+	 <p>This week I submitted the project Budget. It outlines materials that are needed and approximate costs as well as links to where they can be purchased.</p>
+	 <p><a href="https://pwestman.github.io/Deliverables/Budget.xlsx">Budget</a></p>
+	</SECTION>
+	
+	<SECTION ID="Section_7">
+	 <H3>Week 3</H3>
+	 <p>Submitted project Gantt Chart.</p>
+	 <p><a href="https://pwestman.github.io/Deliverables/GanttChart.mpp">Gantt Chart</a></p>
+	</SECTION>
+ 
+ <SECTION ID="Section_6">
+	 <H3>Week 2</H3>
+	 <p>Submitted project proposal.</p>
+	 <p><a href="https://pwestman.github.io/Deliverables/ProjectProposal.docx">Project Proposal</a></p>
+	</SECTION>
+
+ <SECTION ID="Section_1">
+  <H3>Week 1</H3>
+  <h5>Green light</h5>
+  <p><img src="Images/green.jpg" alt="Green Light" style="width:304px;height:228px;"></p>
+  <h5>Red light</h5>
+  <p><img src="Images/red.jpg" alt="Red Light" style="width:304px;height:228px;"></p>
+  <p>
+   <ul>
+    <li>Start off by logging into a computer and during the log in process identify ten of the pieces of Tech in the <a href="weeks/CENGprojectbox.jpg">clear project box</a> (this is an individual <a href="weeks/CENG317TechIdentificationQuiz.docx">quiz</a> to be done without communicating with others).</li>
+	<li>The clear box represents the maximum size of your project which is in alignment with the space below the tray in your parts kit, you are expected to bring both along with safety glasses every week.</li>
+	<li>If your computer has booted:</li>
+	<ol>
+	 <li>Please install <a href="https://desktop.github.com/">https://desktop.github.com/</a></li>
+	 <li>Clone <a href="https://github.com/six0four/six0four.github.io">https://github.com/six0four/six0four.github.io</a></li>
+	 <li>Create an account on <a href="https://github.com/">GitHub.com</a>
+	 <li>Create a repository with the name username.github.io with an AGPLV3 license.</li>
+	 <li>Add the index.html, indexmenu.html, and indexcontent.html from <a href="https://github.com/six0four/six0four.github.io">https://github.com/six0four/six0four.github.io</a> to your repository.
+	 <li>Open username.github.io with a web browser.
+	</ol>
+    <li>Welcome to your IoT themed hardware projects. Let's get started with some <a href="https://www.youtube.com/watch?v=kM-DXWEns2Y&t=28s">reflective learning.</a></li>
+    <li>Project Proposal <a href="weeks/CENG317ProjectProposalStudentName.docx">template</a></li>
+    <li>2016 project choices (show placards from previous projects):</li>
+	<li>Existing Industry Partner</li>
+	<li>1. <a href="http://www.crystalfountains.com">Synchronized Fountain Display</a></li>
+	<li>2. Industry 4.0, OPCUA</li>
+	<li>Humber Automation/Mechatronics Program</li>
+	<li>3. PoE Automation cell monitor</li>
+	<li>Humber Green House</li>
+	<li>4. <a href="farmbot.io">FarmBot</a></li>
+	<li>Kortright Centre</li>
+	<li>5. Home Automation <a 
+href="https://www.thestar.com/life/homes/2016/06/04/active-house-design-gets-a-real-life-test-drive.html">https://www.thestar.com/life/homes/2016/06/04/active-house-design-gets-a-real-life-test-drive.html</a></li>
+	<li>6. Insulation multiplexed grid of sensors</li>
+	<li>7. Remote sensors <a 
+href="https://sowc.ca/facilities/data-platform/">https://sowc.ca/facilities/data-platform/</a></li>
+	<li>Humber Sustainable Technology Program</li>
+	<li>8. Solar Panel interactive display</li>
+	<li>Humber Sustainability/Arboretum</li>
+	<li>9. Langstroth Bee tracker</li>
+	<li>Future Humber Quadcopter Swarm</li>
+	<li>10. <a 
+href="http://www.bestbuy.ca/en-CA/product/litehawk-litehawk-high-roller-mini-rc-multi-rotor-air-vehicle-red-31406/10361895.aspx">http://www.bestbuy.ca/en-CA/product/litehawk-litehawk-high-roller-mini-rc-multi-rotor-air-vehicle-red-31406/10361895.aspx</a>
+<a 
+href="http://dzlsevilgeniuslair.blogspot.ca/2013/11/more-toy-quadcopter-hacking.html">http://dzlsevilgeniuslair.blogspot.ca/2013/11/more-toy-quadcopter-hacking.html</a></li>
+	<li>Humber Engineering Technology Parts Crib</li>
+	<li>11. Parts Crib database</li>
+	<li>Humber Public Safety</li>
+	<li>12. Parking Lot combining features seen at Yorkdale and Sherway Gardens</li>
+	<li>Humber School of Media Studies</li>
+	<li>13. Voice recognition, akin to Amazon Alexa</li>
+	<li>Humber Wireless Program</li>
+	<li>14. Wifi Bridge, reporting up time</li>
+	<li>15. IPenbaled8USB-PsdU for cluster</li>
+	<li>Humber HRT</li>
+	<li>16. Health and Wellness: <a href="https://library.humber.ca/collections/islandora/object/islandora%3A247">gO2: Oxygen Therapy Rehabilitation Device thesis example</a></li>
+	<li>In the spirit of Entrepreneurpship:</li>
+	<li>17. Propose a project meeting CENG 317 and CENG 319 requirements</li>
+    <li><a 
+href="http://munro.humber.ca/~mdrk0011/projects/cribpi.php">Getting 
+started with a single board microcomputer, comprised of a 900MHz quad-core ARM Cortex-A7 CPU  with 1GB SDRAM, 10/100 Mbit/s 
+Ethernet, GPIO, UART, I²C bus, SPI bus, and 8 GB of Secure Digital storage from the Humber College Institute of 
+Technology & Advanced Learning North Campus Technology Parts 
+Crib</a></li>
+	<li>Electives schedules.</li>
+   </ul>
+  </p>
+ </SECTION>
+
+</ARTICLE>
