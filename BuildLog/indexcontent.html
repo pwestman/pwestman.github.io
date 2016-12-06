@@ -134,10 +134,74 @@
 		<ol>
 		  <li>Use the template at pwestman.github.io under Week 14 to laser cut the gate from the sheet of acrylic.</li>
 			<p><img src="../Images/hive-front.png" alt="Front Hive" style="width:700px;height:400px;"></p>
+			<p><i>Figure 2: Front of the Hive</i></p>
 			<p><img src="../Images/hive-side.png" alt="Side Hive" style="width:700px;height:400px;"></p>
-		  <li>Tea</li>
-		  <li>Milk</li>
-		</ol>  
+			<p><i>Figure 3: Sides of the hive to hold up the front piece for testing.</i></p>
+		  <li>Attach the IR Optical Interrupter Modules on either side of each of the 5 holes on your piece of cut acrylic using the electrical tape (These can also be glued, however, I used electrical tape for a less permanent solution in order to use the sensors again once I collaborate with my other group members on the final project).</li>
+			<p><img src="../Images/IR-Sensor.jpg" alt="IR Optical Interrupter Module" style="width:200px;height:200px;"></p>
+			<p><i>Figure 4: The GP1A57HRJ00F IR Optical Interrupter Sensor</i></p>
+		  <li>Run a jumper wire from pin number 2 (5V) of the Raspberry Pi to the positive connected bus on one side of the breadboard.</li>
+		  <li>Run another jumper wire from pin 3 (Ground) to the negative connected bus on the other side of the breadboard.</li>
+			<p><img src="../Images/breadboard.jpg" alt="breadboard" style="width:500px;height:400px;"></p>
+			<p><i>Figure 5: A breadboard showing the hole connections (Source: http://dm.risd.edu/pbadger/PhysComp/index.php?n=Devices.Breadboard)</i></p>
+		  <li>Connect the power pin on each of the IR sensors to the 5V connected bus on the breadboard.</li>
+		  <li>Connect the ground pin on each of the IR sensors to the Ground connected bus on the breadboard.</li>
+		  <li>Now for each IR sensor, connect the pin labelled “Signal” to a separate group of 5 connected pin hole. Ensure that each signal pin is in its own group of 5 horizontally connected pin hole.</li>
+		  <li>Follow the chart below to connect the GPIO pins on the Raspberry Pi header to the appropriate group of 5 signal bus. </li>
+			<p>When looking at the acrylic entrance from the front, from left to right:</p>
+			<table>
+			  <tr>
+			    <th>Sensor</th>
+			    <th>Raspberry Pi GPIO Pin</th>
+			  </tr>
+			  <tr>
+			    <td>1st Sensor - Front</td>
+			    <td>16</td>
+			  </tr>
+			  <tr>
+			    <td>1st Sensor - Back</td>
+			    <td align="right">18</td>
+			  </tr>
+			  <tr>
+			    <td>2nd Sensor – Front</td>
+			    <td align="right">11</td>
+			  </tr>
+			  <tr>
+			    <td>2nd Sensor - Back</td>
+			    <td align="right">13</td>
+			  </tr>
+			  <tr>
+			    <td>3rd Sensor – Front</td>
+			    <td align="right">12</td>
+			  </tr>
+			  <tr>
+			    <td>3rd Sensor – Back</td>
+			    <td align="right">15</td>
+			  </tr>
+			  <tr>
+			    <td>4th Sensor – Front</td>
+			    <td align="right">29</td>
+			  </tr>
+			  <tr>
+			    <td>4th Sensor – Back</td>
+			    <td align="right">31</td>
+			  </tr>
+			  <tr>
+			    <td>5th Sensor – Front</td>
+			    <td align="right">33</td>
+			  </tr>
+			  <tr>
+			    <td>5th Sensor - Back</td>
+			    <td align="right">35</td>
+			  </tr>
+			</table>
+			<p><i>Table 3: Mapping the pins from the sensors to the Raspberry Pi.</i></p>
+			<p>Ensure that each signal pin from the sensor is plugged in to the same group of 5 connected bus as the corresponding pin on the Raspberry Pi GPIO pins.</p>
+		  <li>Connect the LED to an arbitrary pin hole in the breadboard. Ensure the LED pins are not in the same group of 5 connected bus. Connect a jumper wire from pin 22 on the Raspberry Pi GPIO pins to the same group of 5 connected bus as the long end of the LED.</li>
+		  <li>Connect a 50 Ohm resistor to the same group of 5 connected bus as the short end of the LED.</li>
+		  <li>Connect a jumper wire from the same group of 5 connected bus as the resistor to the ground connected bus on the breadboard.</li>
+		</ol> 
+		<p><b>Complete Build Video</b></p>
 		<p><iframe src="https://player.vimeo.com/video/194432694" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/194432694">Build Video - Bee Tracker</a> from <a href="https://vimeo.com/user58499739">Paul Westman</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 				
 	</SECTION>
