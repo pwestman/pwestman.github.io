@@ -241,17 +241,60 @@
 						print count
 						gate1=0
 		</pre></code>
+		<p>You can replace the GPIO.setup and GPIO.input functions with any pin you wish to test. This will test if that one particular pin is working.</p>
+		<p><u>Testing both sensors at one gate:</u></p>
+		<p>To test the pair of sensors on either side of the gate, run the following code:</p>
+		<code><pre>
+			import RPi.GPIO as GPIO
+		import time
+
+		GPIO.setmode(GPIO.BOARD)
+		GPIO.setup(22,GPIO.OUT)
+		GPIO.setup(16,GPIO.IN)
+
+		count=0
+		gate1=1
+
+		try:
+		    while True:
+			if GPIO.input(16)==0:
+			    if GPIO.input(18)==0:
+				if gate1==1:
+				    count+=1
+				    GPIO.output(22,True)
+				    time.sleep(0.2)
+				    GPIO.output(22,False)
+				    print count
+				    gate1=0
+			elif GPIO.input(18)==0:
+			    if GPIO.input(16)==0:
+				if gate1==1:
+				    count-=1
+				    GPIO.output(22,True)
+				    time.sleep(0.1)
+				    GPIO.output(22,False)
+				    time.sleep(0.1)
+				    GPIO.output(22,True)
+				    time.sleep(0.1)
+				    GPIO.output(22,False)
+				    print count
+				    gate1=0
+			else:
+			    gate1=1
+		</pre></code>
+		<p>You can replace the GPIO.setup and GPIO.input functions with any two pins that are on opposite sides of the same gate that you wish to test. This will test if both particular pins are working at one gate for an object entering or exiting.</p>
 		
 	</SECTION>
 	
 	<SECTION ID="Section_11">
 	 <H3>Production Testing</H3>
+		<p>Now you are ready for production testing. Run the beeCounter.py program and test objects entering and exiting through the gates and check whether the counter increments and decrements accordingly. The LED should blink once for an object entering and blink twice for an object exiting. If you encounter problems, check your wiring and go back and do unit testing on the troublesome gates, by running the unit testing code with the appropriate pins on the Raspberry Pi.</p>
 		
 	</SECTION>
 	
 	<SECTION ID="Section_10">
 	 <H3>Reproducibility Based on Instructions</H3>
-	 
+		<p>By following these build instructions, anyone should be able to have a working prototype of the Bee Counter project. The only setbacks one should have are when ordering the parts because of availability and delivery times based on where someone might live. Other than that, by following these instructions anyone should be able to have the same working prototype at the end of these instructions as the one that I have now. </p>
 	</SECTION>
 
 </ARTICLE>
