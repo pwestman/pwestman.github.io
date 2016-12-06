@@ -208,16 +208,39 @@
 	
 	<SECTION ID="Section_14">
 	 <H3>PCB/Soldering</H3>
+		<p>This project did not use a PCB, however, a PCB could be used for the LED indicator if you wish to do so.</p>
 		
 	</SECTION>
 	
 	<SECTION ID="Section_13">
 	 <H3>Power Up</H3>
+		<p>Now that your mechanical assembly is complete, turn on the Raspberry Pi. Create a new file called <a href="https://pwestman.github.io/Deliverables/beeCounter.py">beeCounter.py</a> and copy and paste the code from the link to the file. In the command line type ./sudo idle and run the Python code. The program should begin to run, but you will not see any output until you pass an object through one of the gates. This will increment the counter on the terminal as well as light up the LED on the breadboard.</p>
 		
 	</SECTION>
 	
 	<SECTION ID="Section_12">
 	 <H3>Unit Testing</H3>
+		<p>Since this project provides complete build instructions, unit testing should not be required because I have done the unit testing to get the project to work. However, if you encounter any problems in the mechanical assembly, unit testing may be helpful. Here is some of the unit testing I did on the project:</p>
+		<p><u>Testing one sensor:</u></p>
+		<code><pre>
+			GPIO.setmode(GPIO.BOARD)
+			GPIO.setup(22,GPIO.OUT)
+			GPIO.setup(16,GPIO.IN)
+
+			count=0
+			gate1=1
+
+			try:
+			    while True:
+				if GPIO.input(16)==0:
+					if gate1==1:
+						count+=1
+						GPIO.output(22,True)
+						time.sleep(0.2)
+						GPIO.output(22,False)
+						print count
+						gate1=0
+		</pre></code>
 		
 	</SECTION>
 	
