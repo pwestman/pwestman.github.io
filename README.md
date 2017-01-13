@@ -1,3 +1,8 @@
+---
+csl: apa.csl
+bibliography: RPiCitations.bib
+---
+
 ![](media/image1.jpeg)
 
 September 13, 2016
