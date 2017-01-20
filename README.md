@@ -1,15 +1,38 @@
 ---
-bibliography: RPiCitations.bib
 csl: apa.csl
+bibliography: RPiCitations.bib
 ---
+
+Smart Hive
+==========
+
+ 
+
+Project Website: pwestman.github.io
+
+ 
+
+**Proposal**
+
+*Proposal for the development of *[Smart Hive](pwestman.github.io)
+
+Prepared by Roberto Loja, Yurii Sentsiv, Paul Westman  
+*Computer Engineering Technology Students*
 
 January 20, 2017
 
-*Proposal for the development of Project Name*
+ 
 
-Prepared by Roberto Loja, Yurii Sentsiv, Paul Westman  
-*Computer Engineering Technology Students*  
-pwestman.github.io
+**Table of Contents**
+
+Proposal..........1
+
+Background.....1
+
+References......3
+
+  
+
 
 **Executive Summary**
 
@@ -74,39 +97,38 @@ following topics from the respective relevant courses:
 
 -   Wireless protocols such as 802.11 from TECH152 Telecom Networks.
 
-This knowledge and skill set will enable me to build the subsystems and
-integrate them together as my capstone project.
+This knowledge and skill set will enable us to build the subsystems and
+integrate them together as our capstone project.
 
 **Methodology**
 
 This proposal is assigned in the first week of class and is due at the beginning
-of class in the second week of the fall semester. My coursework will focus on
-the first two of the 3 phases of this project:  
+of class in the second week of the fall  and winter semesters. Our coursework
+will focus on the first two of the 3 phases of this project:  
 Phase 1 Hardware build.  
 Phase 2 System integration.  
 Phase 3 Demonstration to future employers.
 
 *Phase 1 Hardware build*
 
-The hardware build will be completed in the fall term. It will fit within the
-CENG Project maximum dimensions of 12 13/16" x 6" x 2 7/8" (32.5cm x 15.25cm x
+The hardware build was completed in the fall term. It fit within the CENG
+Project maximum dimensions of 12 13/16" x 6" x 2 7/8" (32.5cm x 15.25cm x
 7.25cm) which represents the space below the tray in the parts kit. The highest
-AC voltage that will be used is 16Vrms from a wall adaptor from which +/- 15V or
-as high as 45 VDC can be obtained. Maximum power consumption will be 20 Watts.
+AC voltage that was allowed to be used was 16Vrms from a wall adaptor from which
++/- 15V or as high as 45 VDC. Maximum power consumption was to be no more than
+20 Watts.
 
 *Phase 2 System integration*
 
-The system integration will be completed in the fall term.
+The system integration will be completed in the winter term.
 
 *Phase 3 Demonstration to future employers*
 
-This project will showcase the knowledge and skills that I have learned to
+This project will showcase the knowledge and skills that we have learned to
 potential employers.
 
 The tables below provide rough effort and non-labour estimates respectively for
-each phase. A Gantt chart will be added by week 3 to provide more project
-schedule details and a more complete budget will be added by week 4. It is
-important to start tasks as soon as possible to be able to meet deadlines.
+each phase.
 
 | **Labour Estimates**                                                                      | **Hrs**      | **Notes**                                                                                                                      |
 |-------------------------------------------------------------------------------------------|--------------|--------------------------------------------------------------------------------------------------------------------------------|
@@ -171,8 +193,8 @@ important to start tasks as soon as possible to be able to meet deadlines.
 This proposal presents a plan for providing an IoT solution for bee tracking at
 Humber College. This is an opportunity to integrate the knowledge and skills
 developed in our program to create a collaborative IoT capstone project
-demonstrating my ability to learn how to support projects. I request approval of
-this project.
+demonstrating our ability to learn how to support projects. We request approval
+of this project.
 
 **References**
 
