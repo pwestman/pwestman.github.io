@@ -209,9 +209,9 @@ Abstract
 
 Illustrations and Diagrams
 
-1.Product Introduction
+1 Product Introduction
 
-2. Software Requirements Specifications
+2 Software Requirements Specifications
 
 2.1 Product Description
 
@@ -253,13 +253,13 @@ Illustrations and Diagrams
 
 2.4.2 Safety
 
-3. Conclusions
+3 Conclusions
 
-4. Recommendations
+4 Recommendations
 
-5. Progress Reports
+5 Progress Reports
 
-6. References
+6 References
 
 **1. Product Introduction**
 ===========================
