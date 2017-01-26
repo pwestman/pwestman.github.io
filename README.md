@@ -3,8 +3,8 @@ csl: apa.csl
 bibliography: RPiCitations.bib
 ---
 
-Smart Hive
-==========
+**Smart Hive**
+==============
 
  
 
@@ -13,8 +13,9 @@ Project Website: pwestman.github.io
  
 
 **Proposal**
+============
 
-*Proposal for the development of *[Smart Hive](pwestman.github.io)
+*Proposal for the development of* [Smart Hive](pwestman.github.io)
 
 Prepared by Roberto Loja, Yurii Sentsiv, Paul Westman  
 *Computer Engineering Technology Students*
@@ -23,18 +24,7 @@ January 20, 2017
 
  
 
-**Table of Contents**
-
-Proposal..........1
-
-Background.....1
-
-References......3
-
-  
-
-
-**Executive Summary**
+### **Executive Summary**
 
 As students in the Computer Engineering Technology program, We will be
 integrating the knowledge and skills we have learned from our program into this
@@ -49,7 +39,7 @@ bees in the hive, temperature and humidity and will be further detailed in the
 mobile application proposal. We will be collaborating with the following
 company/department: Humber Honey Bees.
 
-**Background**
+### **Background**
 
 The problem solved by the project is finding a non-invasive way of tracking bee
 populations in the hive with varying temperature and humidity. With the depleted
@@ -100,10 +90,10 @@ following topics from the respective relevant courses:
 This knowledge and skill set will enable us to build the subsystems and
 integrate them together as our capstone project.
 
-**Methodology**
+### **Methodology**
 
 This proposal is assigned in the first week of class and is due at the beginning
-of class in the second week of the fall  and winter semesters. Our coursework
+of class in the second week of the fall and winter semesters. Our coursework
 will focus on the first two of the 3 phases of this project:  
 Phase 1 Hardware build.  
 Phase 2 System integration.  
@@ -188,7 +178,7 @@ each phase.
 | *Duty*                                                                                    | *TBD*        |                                                                                                                                |
 | **Phase 3 Total**                                                                         | **TBD**      |                                                                                                                                |
 
-**Concluding remarks**
+### **Concluding remarks**
 
 This proposal presents a plan for providing an IoT solution for bee tracking at
 Humber College. This is an opportunity to integrate the knowledge and skills
@@ -196,6 +186,143 @@ developed in our program to create a collaborative IoT capstone project
 demonstrating our ability to learn how to support projects. We request approval
 of this project.
 
-**References**
+**Abstract**
+============
+
+**Illustrations and Diagrams**
+==============================
+
+**Table of Contents**
+=====================
+
+Approved Proposal
+
+Executive Summary
+
+Background
+
+Methodology
+
+Concluding Remarks
+
+Abstract
+
+Illustrations and Diagrams
+
+1. Product Introduction
+
+2. Software Requirements Specifications
+
+2.1 Product Description
+
+2.1.1 Problem To Be Solved
+
+2.1.2 Intended Users
+
+2.1.3 Overview Of Product
+
+2.2 System Description
+
+2.2.1 Product Perspective
+
+2.2.2 Design Constraints
+
+2.2.3 Product Functions
+
+2.2.4 User Characteristics
+
+2.2.5 Constraints, Assumptions, and Dependencies
+
+2.3 Specific Requirements
+
+2.3.1 Database
+
+2.3.2 Web Interface
+
+2.3.3 Mobile Application
+
+2.3.4 Hardware
+
+2.3.5 Performance
+
+2.3.6 Functional Requirements
+
+2.4 Additional Requirements
+
+2.4.1 Security
+
+2.4.2 Safety
+
+3. Conclusions
+
+4. Recommendations
+
+5. Progress Reports
+
+6. References
+
+**1. Product Introduction**
+===========================
+
+**2. Software Requirements Specifications**
+===========================================
+
+2.1 Product Description
+-----------------------
+
+### 2.1.1 Problem To Be Solved
+
+### 2.1.2 Intended Users
+
+### 2.1.3 Overview Of Product
+
+2.2 System Description
+----------------------
+
+### 2.2.1 Product Perspective
+
+### 2.2.2 Design Constraints
+
+### 2.2.3 Product Functions
+
+### 2.2.4 User Characteristics
+
+### 2.2.5 Constraints, Assumptions, and Dependencies
+
+2.3 Specific Requirements
+-------------------------
+
+### 2.3.1 Database
+
+### 2.3.2 Web Interface
+
+### 2.3.3 Mobile Application
+
+### 2.3.4 Hardware
+
+### 2.3.5 Performance
+
+### 2.3.6 Functional Requirements
+
+2.4 Additional Requirements
+---------------------------
+
+### 2.4.1 Security
+
+### 2.4.2 Safety
+
+**3. Conclusions**
+==================
+
+**4. Recommendations**
+======================
+
+**5. Progress Reports**
+=======================
+
+**6. References**
+=================
+
+ 
 
  
