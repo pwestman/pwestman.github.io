@@ -12,8 +12,8 @@ Project Website: pwestman.github.io
 
  
 
-**Proposal**
-============
+**Approved Proposal**
+=====================
 
 *Proposal for the development of* [Smart Hive](pwestman.github.io)
 
