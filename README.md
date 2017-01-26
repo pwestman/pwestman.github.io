@@ -209,7 +209,7 @@ Abstract
 
 Illustrations and Diagrams
 
-1. Product Introduction
+1.Product Introduction
 
 2. Software Requirements Specifications
 
