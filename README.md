@@ -216,7 +216,7 @@ Diagrams](https://github.com/pwestman/pwestman.github.io#illustrations-and-diagr
 [1. Product
 Introduction](https://github.com/pwestman/pwestman.github.io#1-product-introduction)
 
-[2 Software Requirements
+[2. Software Requirements
 Specifications](https://github.com/pwestman/pwestman.github.io#2-software-requirements-specifications)
 
 [2.1 Product
