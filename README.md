@@ -358,15 +358,70 @@ is actively managing bee hives.
 
 ### 2.3.1 Database
 
+Smart Hive uses Google’s Firebase Database, which pairs easily with the Android
+application that was developed for users to view hive information. Firebase has
+enhanced statistics, authentication, as well as being a commonly used database
+for Android IDE. We have fairly straightforward structure, which will contain
+the user’s unique ID that will be automatically created when the user is
+authenticated with the Google account. Under the user’s ID will be entries for
+different hives, depending how many were activated. Under each hive, there will
+be information about the location, creation date, name, humidity, population,
+temperature, weight and date of last update. Further, the results will be
+fetched and displayed in the Android app.
+
 ### 2.3.2 Web Interface
+
+One of the functions of Google’s Firebase service is providing statistics of app
+usage by end-users. All of the data in the database is presented in spanning
+list topology and it is relatively easy to track needed information.
 
 ### 2.3.3 Mobile Application
 
+The Android application was developed in order to give users easy access to the
+up-to-date data on the hives. As stated previously, we are using Google’s
+Firebase services, which includes database visualization as well as Google
+authentication that is used on the mobile application’s Welcome screen. This
+allows users to login to their account and see their specific hive information
+and status. After the user has logged in, the main screen will display all of
+the hives in the list. From there user can click on any of the hives and see
+information about them. This information is fetched from the Firebase database.
+Also, the user can discover the hive on the map, which can be updated from the
+app in case the hive was moved. The information will be displayed in different
+colors, indicating if there are any possible problems.
+
 ### 2.3.4 Hardware
+
+The main processing unit that is used to collect the data and then upload it to
+database is the Raspberry Pi 3 microcomputer. The product uses 3 different
+sensors to track temperature, humidity, population, and weight. The DHT11 is
+used in different locations in the hive so the readings of temperature and
+humidity are more precise. Another function is locating the bee cluster, which
+is dependent on temperature readings in different spots in the hive. The
+Infrared Optical Interrupter module detects bees as they break the infrared beam
+between the two barriers on the sensor. With a sensor on either side of the
+entrance,it can track whether a bee is entering or exiting the hive and
+increment or decrement a counter accordingly. A wheatstone bridge is used from a
+modified bathroom scale and placed underneath the hive to measure they weight
+changes of the hive. The weight sensor will help monitor the honey production to
+ensure there is adequate supply to last the winter.
 
 ### 2.3.5 Performance
 
+All of the changes that are made are displayed in real time in the app as long
+as the user has an internet connection. The data retrieved by the hardware
+becomes more useful over time. This is because patterns associated with
+population and temperature become clearer with longer periods of time. But
+overall, if the system is running for a few days, the population readings that
+are uploaded to database should be more precise than when it was just launched.
+
 ### 2.3.6 Functional Requirements
+
+The functional requirement for Smart Hive include being able to update the data
+in the database in real time and be presented on the mobile application.
+Therefore, there should be constant connection to the internet on the Raspberry
+Pi. Smart Hive can use the Ethernet connection or Wi-Fi, which are both built
+into the Raspberry Pi 3. There should also be a constant power supply to the
+Raspberry Pi so the system can constantly retrieve and update the readings.
 
 2.4 Additional Requirements
 ---------------------------
