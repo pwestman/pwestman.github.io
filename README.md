@@ -367,13 +367,18 @@ authenticated with the Google account. Under the user’s ID will be entries for
 different hives, depending how many were activated. Under each hive, there will
 be information about the location, creation date, name, humidity, population,
 temperature, weight and date of last update. Further, the results will be
-fetched and displayed in the Android app.
+fetched and displayed in the Android app. Roberto will be responsible for
+writing a short script that will execute once the Raspberry Pi has booted that
+will make a new node in the database associated with the user that is using it.
 
 ### 2.3.2 Web Interface
 
 One of the functions of Google’s Firebase service is providing statistics of app
 usage by end-users. All of the data in the database is presented in spanning
-list topology and it is relatively easy to track needed information.
+list topology and it is relatively easy to track needed information. As the web
+interface is already set up, Paul will be responsible for maintaining the web
+interface and ensuring newly set up hives are being properly added to the
+Firebase console database.
 
 ### 2.3.3 Mobile Application
 
@@ -387,7 +392,10 @@ the hives in the list. From there user can click on any of the hives and see
 information about them. This information is fetched from the Firebase database.
 Also, the user can discover the hive on the map, which can be updated from the
 app in case the hive was moved. The information will be displayed in different
-colors, indicating if there are any possible problems.
+colors, indicating if there are any possible problems. Yurii will be responsible
+for testing the mobile application once it is integrated with the database. He
+will also be responsible for deployment and subsequent version control the final
+version of the application (for example managing the Google Play Store page).
 
 ### 2.3.4 Hardware
 
@@ -403,7 +411,11 @@ entrance,it can track whether a bee is entering or exiting the hive and
 increment or decrement a counter accordingly. A wheatstone bridge is used from a
 modified bathroom scale and placed underneath the hive to measure they weight
 changes of the hive. The weight sensor will help monitor the honey production to
-ensure there is adequate supply to last the winter.
+ensure there is adequate supply to last the winter. Each of us will be
+responsible for writing threaded scripts that will gather the readings from the
+sensors that each of us are responsible for: Roberto is responsible for weight
+data, Yurii is responsible for cluster location data, and Paul is responsible
+for population count.
 
 ### 2.3.5 Performance
 
