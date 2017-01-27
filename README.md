@@ -213,7 +213,7 @@ Remarks](https://github.com/pwestman/pwestman.github.io#concluding-remarks)
 [Illustrations and
 Diagrams](https://github.com/pwestman/pwestman.github.io#illustrations-and-diagrams)
 
-[1 Product
+[1. Product
 Introduction](https://github.com/pwestman/pwestman.github.io#1-product-introduction)
 
 [2 Software Requirements
@@ -263,15 +263,15 @@ Requirements](https://github.com/pwestman/pwestman.github.io#24-additional-requi
 
 2.4.2 Safety
 
-[3 Conclusions](https://github.com/pwestman/pwestman.github.io#3-conclusions)
+[3. Conclusions](https://github.com/pwestman/pwestman.github.io#3-conclusions)
 
-[4
+[4.
 Recommendations](https://github.com/pwestman/pwestman.github.io#4-recommendations)
 
-[5 Progress
+[5. Progress
 Reports](https://github.com/pwestman/pwestman.github.io#5-progress-reports)
 
-[6 References](https://github.com/pwestman/pwestman.github.io#6-references)
+[6. References](https://github.com/pwestman/pwestman.github.io#6-references)
 
 **1. Product Introduction**
 ===========================
@@ -284,22 +284,62 @@ Reports](https://github.com/pwestman/pwestman.github.io#5-progress-reports)
 
 ### 2.1.1 Problem To Be Solved
 
+This project aims to solve the problem of not being able to see inside a beehive
+to determine its overall health. By incorporating sensors into a beehive,
+beekeepers are able to get a deeper understanding of what is going on inside the
+hive and if intervention is necessary by the beekeeper in order to maintain the
+hive’s functionality.
+
 ### 2.1.2 Intended Users
 
+This product is intended for beekeepers who are looking for a way to more
+closely monitor what is going on inside the hives that they are responsible for.
+
 ### 2.1.3 Overview Of Product
+
+Smart Hive includes a Raspberry Pi 3 Model B, as well as DHT11 sensors, Infrared
+Optical Interrupter sensors, and a wheat stone bridge for measuring the
+temperature, humidity, population, and weight of the hives.
 
 2.2 System Description
 ----------------------
 
 ### 2.2.1 Product Perspective
 
+This product is open source, with the hopes that users will modify and
+distribute their own customized versions for the advancement of beekeeping
+metrics.
+
 ### 2.2.2 Design Constraints
+
+Smart Hive is meant to operate year round to gather metrics on the hive’s
+health. This allows beekeepers to determine if human intervention is required
+for the survival of the hive. However, the product is designed so that it will
+not impact the daily movement of the bees.
 
 ### 2.2.3 Product Functions
 
+The sensors attached to the Raspberry Pi 3 collect data from the various sensors
+to provide a deeper understanding of what is going on inside the hive. The
+metrics that this product measures are temperature, humidity, population, and
+weight. The temperature and humidity give the beekeeper an idea of the climate
+that their hives are currently in. The population lets the beekeeper know if
+bees are dying and allows them to respond accordingly. The weight gives an idea
+of how much honey is stored in the hive at any time and if it will be sufficient
+to get the colony through the winter.
+
 ### 2.2.4 User Characteristics
 
+The end user of this product will be a certified beekeeper who is actively
+managing one or more hives. The user must have an Android smartphone in order to
+monitor the status of the hive through the Smart Hive mobile application.
+
 ### 2.2.5 Constraints, Assumptions, and Dependencies
+
+The mobile application runs on Android API 19 or higher. It works on a mobile
+phone or a tablet. The software that is running on the Raspberry Pi is in a
+Linux environment. The user of the application must be a certified beekeeper who
+is actively managing bee hives.
 
 2.3 Specific Requirements
 -------------------------
@@ -321,7 +361,15 @@ Reports](https://github.com/pwestman/pwestman.github.io#5-progress-reports)
 
 ### 2.4.1 Security
 
+The Smart Hive mobile application uses Google authentication to verify the user
+before they are able to access any of the hives data. If the user does not have
+a Google account, one can be created from the main page of the application.
+
 ### 2.4.2 Safety
+
+Beekeepers should always wear industry standard protective equipment when
+physically interacting with any active bee hives. This is necessary for the
+initial setup of the hardware on the beehive.
 
 **3. Conclusions**
 ==================
