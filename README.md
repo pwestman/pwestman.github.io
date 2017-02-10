@@ -1,6 +1,6 @@
 ---
-csl: apa.csl
 bibliography: RPiCitations.bib
+csl: apa.csl
 ---
 
 **Smart Hive**
@@ -315,15 +315,16 @@ Requirements](https://github.com/pwestman/pwestman.github.io#24-additional-requi
 
 [2.4.2 Safety](https://github.com/pwestman/pwestman.github.io#242-safety)
 
+2.5 Schedule
+
+2.5.1 Week 4 Progress Report
+
 [3. Conclusions](https://github.com/pwestman/pwestman.github.io#3-conclusions)
 
 [4.
 Recommendations](https://github.com/pwestman/pwestman.github.io#4-recommendations)
 
-[5. Progress
-Reports](https://github.com/pwestman/pwestman.github.io#5-progress-reports)
-
-[6. References](https://github.com/pwestman/pwestman.github.io#6-references)
+[5. References](https://github.com/pwestman/pwestman.github.io#6-references)
 
 **1. Product Introduction**
 ===========================
@@ -339,14 +340,24 @@ sensors into the hive to track these metrics and upload them to a database that
 can be queried in real time by beekeepers using our Smart Hive application for
 Android mobile devices, and provide the most up to date information 24/7.
 
- 
-
 Sensors incorporated into the hive are powered by a Raspberry Pi to collect data
 on the population, weight, and cluster location of bees in the hive. This data
 is uploaded to a database and available for beekeepers immediately to make
 decisions on how to intervene to ensure the health of the hive. It is possible
 to monitor multiple hives within the application, displaying their status at the
 touch of a button.
+
+Humber College got involved with beekeeping in June of 2015 with an initiative
+called the Humber Honey Bees. This was a response to the rapid decline of the
+bee population as an effort to raise awareness and study their activities.
+However, the Humber Honey Bees do not have any smart tracking systems integrated
+into the hives that are on campus. This presented the perfect opportunity for
+our team to develop and eventually test the system through this initiative.
+
+The idea of Smart Hive is to find a way to track the movements and metrics of
+bees using sensors in the least invasive way possible, with up to date data
+available by request in real time from our application built for Android
+devices.
 
 **2. Software Requirements Specifications**
 ===========================================
@@ -510,16 +521,60 @@ Beekeepers should always wear industry standard protective equipment when
 physically interacting with any active bee hives. This is necessary for the
 initial setup of the hardware on the beehive.
 
+2.5 Schedule
+------------
+
+### 2.5.1 Week 4 Progress Report
+
+Kristian,
+
+What follows is an account of our current progress.
+
+We are currently on schedule, viz the Gantt chart we submitted in first
+semester. We have begun researching the methods by which we will asynchronously
+gather sensor data and upload it to our database, which we expect to have
+finished in the coming weeks. Further, we are on track to have a fully working
+prototype by the Open House on April 8th at Humber College.
+
+All three independent hardware components have been completed, and our Android
+mobile application is nearly ready for release. At this point, we are focused on
+integration of the three hardware components into a single product. Over the
+coming weeks, we hope to acquire a Langstroth hive in order to integrate our
+hardware and begin production testing. We have made contact with people and
+organizations from whom we might borrow a hive. Failing that, our plan is to
+either build or buy a hive or suitable simulacrum. We estimate the cost of a
+nucleus Langstroth hive at around \$50. This cost will not be included in the
+total build cost since we will use it for testing, and this would not be an
+expense incurred by anyone already in possession of a hive.
+
+Our estimated budget for the integration phase of the project is \$300 and we
+are currently under budget. Barring unforeseen expenses, we will not exceed our
+budget this term, since all required components have already been acquired.
+
+Our biggest current challenge is testing. It will be difficult or impossible to
+test our final product during winter, as the bees are still clustered inside the
+hive. This means that any real life testing will have to wait until spring. In
+the meantime, we are planning on designing mock-ups to simulate expected use
+conditions. Thus, we must acquire a Langstroth hive, or a suitable stand-in, in
+order to simulate the types of bee activity we intend to measure.
+
+Thank you,
+
+Team Smart Hive
+
+Roberto Loja
+
+Yurii Sentsiv
+
+Paul Westman
+
 **3. Conclusions**
 ==================
 
 **4. Recommendations**
 ======================
 
-**5. Progress Reports**
-=======================
-
-**6. References**
+**5. References**
 =================
 
  
