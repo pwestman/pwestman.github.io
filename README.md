@@ -235,6 +235,9 @@ colony collapse.
 **Table of Contents**
 =====================
 
+[Declaration of Joint
+Authorship](https://github.com/pwestman/pwestman.github.io#declaration-of-joint-authorship)
+
 [Approved
 Proposal](https://github.com/pwestman/pwestman.github.io#approved-proposal)
 
@@ -315,9 +318,10 @@ Requirements](https://github.com/pwestman/pwestman.github.io#24-additional-requi
 
 [2.4.2 Safety](https://github.com/pwestman/pwestman.github.io#242-safety)
 
-2.5 Schedule
+[2.5 Schedule](https://github.com/pwestman/pwestman.github.io#25-schedule)
 
-2.5.1 Week 4 Progress Report
+[2.5.1 Week 4 Progress
+Report](https://github.com/pwestman/pwestman.github.io#251-week-4-progress-report)
 
 [3. Conclusions](https://github.com/pwestman/pwestman.github.io#3-conclusions)
 
