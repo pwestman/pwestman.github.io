@@ -10,7 +10,35 @@ bibliography: RPiCitations.bib
 
 Project Website: pwestman.github.io
 
- 
+**Declaration of Joint Authorship**
+===================================
+
+Roberto Loja, Yuri Sentsiv, and Paul Westman, the members of team Smart Hive,
+confirm that the concepts presented in this report have resulted from original
+thinking and research. All references to previously existing work have been
+appropriately cited throughout this document, as well as comprehensively
+accounted in its bibliography. As far as possible, we have evenly divided all
+work amongst ourselves. Though all members participated in all tasks to some
+extent, our primary areas of responsibility were as follows. Roberto Loja was
+responsible for interfacing our IoT hive with our remote database, by writting
+software that aggregates and uploads all sensor data into a format usable by
+client applications. He was also responsible for the strain gauge circuit used
+to gather weight data from the hive, as well as the design of the physical
+package of the Smart Hive hardware. Finally, Roberto contributed a significant
+portion of the code base for our mobile application. Yuri Sentsiv was
+responsible for the interface between our remote database and our mobile
+application, as well as designing and implementing the hardware system that,
+using temperature sensors, tracks the physical location of the bee cluster
+inside a hive. Further, Yuri was integral to the user interface design and
+usability testing of the mobile application, as well as the integration of the
+GPS system of target mobile devices. Paul Westman was responsible for developing
+the hardware and software for tracking a hive’s ingress and egress, thus
+providing an indirect population count. Paul was crucial in ensuring the mobile
+application’s compliance with Material Design guidelines, as well as designing
+the database schema and maintaining data consistency. Finally, Paul acted as the
+scrum master in the development of the application, coordinating the team's
+workflow, managing supplies, ordering parts, scheduling meetings, and keeping
+track of the project schedule.
 
 **Approved Proposal**
 =====================
@@ -189,6 +217,18 @@ of this project.
 **Abstract**
 ============
 
+The western honey bee's prolific pollination of crops makes an enormous
+contribution to agriculture. As this has been threatened by colony collapse
+disorder, the time demands on experienced bee keepers have greatly increased. We
+have aimed to lessen those demands by allowing beekeepers to remotely monitor
+the health of hives. This project makes use of a compact package of carefully
+chosen sensors, mounted on a beehive, that wouldn’t interfere with bee colony
+life, whose readings can be monitored from an internet connected tablet or phone
+using an app of our design. By lowering the time required to monitor each hive,
+we aim to allow beekeepers to tend to a greater number of hives, and to focus on
+those that require more attention, hopefully lessening the wider effects of
+colony collapse.
+
 **Illustrations and Diagrams**
 ==============================
 
@@ -287,6 +327,26 @@ Reports](https://github.com/pwestman/pwestman.github.io#5-progress-reports)
 
 **1. Product Introduction**
 ===========================
+
+The decline of the bee population has been a major threat to the future of
+agriculture due to humans’ reliance on their activity for pollinating crops. As
+technology has advanced, beekeepers have been left behind with very few
+effective options for monitoring the activities of the bees in a hive. This
+means that beekeepers do not have the most up to date data on the activity of
+the hive, such as weight, population, and cluster location, unless they are
+physically by the hive. Smart Hive aims to tackle this problem by incorporating
+sensors into the hive to track these metrics and upload them to a database that
+can be queried in real time by beekeepers using our Smart Hive application for
+Android mobile devices, and provide the most up to date information 24/7.
+
+ 
+
+Sensors incorporated into the hive are powered by a Raspberry Pi to collect data
+on the population, weight, and cluster location of bees in the hive. This data
+is uploaded to a database and available for beekeepers immediately to make
+decisions on how to intervene to ensure the health of the hive. It is possible
+to monitor multiple hives within the application, displaying their status at the
+touch of a button.
 
 **2. Software Requirements Specifications**
 ===========================================
