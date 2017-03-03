@@ -6,8 +6,6 @@ csl: apa.csl
 **Smart Hive**
 ==============
 
- 
-
 Project Website: pwestman.github.io
 
 **Declaration of Joint Authorship**
@@ -49,8 +47,6 @@ Prepared by Roberto Loja, Yurii Sentsiv, Paul Westman
 *Computer Engineering Technology Students*
 
 January 20, 2017
-
- 
 
 ### **Executive Summary**
 
@@ -259,7 +255,7 @@ Diagrams](https://github.com/pwestman/pwestman.github.io#illustrations-and-diagr
 [1. Product
 Introduction](https://github.com/pwestman/pwestman.github.io#1-product-introduction)
 
-[2. Software Requirements
+[2. Requirements
 Specifications](https://github.com/pwestman/pwestman.github.io#2-software-requirements-specifications)
 
 [2.1 Product
@@ -323,6 +319,26 @@ Requirements](https://github.com/pwestman/pwestman.github.io#24-additional-requi
 [2.5.1 Week 4 Progress
 Report](https://github.com/pwestman/pwestman.github.io#251-week-4-progress-report)
 
+2.5.6 Week 6 Progress Report
+
+2.6 Build Instructions
+
+2.6.1 Introduction
+
+2.6.2 Bill of Materials and Budget
+
+2.6.3 Time Commitment
+
+2.6.4 Mechanical Assembly
+
+2.6.5 Software Setup and Power Up
+
+2.6.6 Unit Testing
+
+2.6.6.1 Strain Gauges
+
+2.6.6.2 Population Counting
+
 [3. Conclusions](https://github.com/pwestman/pwestman.github.io#3-conclusions)
 
 [4.
@@ -363,8 +379,8 @@ bees using sensors in the least invasive way possible, with up to date data
 available by request in real time from our application built for Android
 devices.
 
-**2. Software Requirements Specifications**
-===========================================
+**2. Requirements Specifications**
+==================================
 
 2.1 Product Description
 -----------------------
@@ -571,6 +587,314 @@ Roberto Loja
 Yurii Sentsiv
 
 Paul Westman
+
+### 2.5.2 Week 6 Progress Report
+
+Dear Kristian,
+
+Over the past week, we made significant progress on the physical housing for
+Smart Hive. We designed the prototype that takes all of our independent models
+into account for tracking the weight, population and physical location of bee
+cluster in the hive and integrated them into a single unit. We designed the
+enclosure keeping in mind the specific sizes and functionalities of all the
+sensors, as well as leaving adequate space for cable management to ensure the
+final prototype is not only functional, but organized and visually appealing. We
+then transferred our designs into AutoCAD, where we were able to further focus
+in on the details of the hive’s sensor housing. Once the design was complete, we
+scheduled an appointment at the Prototype Lab at Humber College and had it cut
+out of 3mm acrylic. 
+
+At this point we are ready to assemble the Smart Hive housing and test it with
+our sensors. One problem that we have encountered is that we need to find a way
+to run our cables to the Raspberry Pi that is located beneath the hive. To solve
+this problem, we plan to drill a hole through the side of the case designed by
+Roberto last semester and run the cables through to the Raspberry Pi. In order
+to minimize the area taken up by the cables and to protect them from the
+environment outside the acrylic casing, we plan to wrap them in heat shrink
+tubing and feed them into the base.
+
+We all worked together on the design for the housing of Smart Hive.
+Specifically, Roberto designed the integration of the hive with the scale that
+is to be placed underneath the hive. Yurii designed the cut outs from the sides
+of the hive for the DHT11 sensors to fit in. Paul designed the gate housing to
+ensure that the optical interrupter sensors would slide in and the cables would
+be properly managed. Looking ahead, Roberto will be working on forwarding data
+to the database, Yurii will be ensuring the proper data is being fetched by the
+Android application, and Paul will be responsible for testing the sensors and
+verifying accurate data as well as finalizing the web database interface.  
+
+We are on track with our activities versus the current schedule. With the
+physical prototype near completion, we will be shifting our focus to writing the
+code that will forward the data retrieved by the sensors to our database. With
+reading week next week, we plan to finish most of these tasks during this time.
+This means we should be ready for the app, web, and database independent
+demonstration after reading week.
+
+Since we used the laser cutter in the Prototype Lab, we did not incur any costs
+when cutting our integrated prototype over the past week. At this point, there
+should be no additional costs incurred as we have all the materials to finish
+the prototype.
+
+Thank you,
+
+Team Smart Hive
+
+Roberto Loja, Paul Westman, and Yurii Sentsiv
+
+2.6 Build Instructions
+----------------------
+
+### 2.6.1 Introduction
+
+The purpose of Smart Hive is to provide beekeepers a simple and efficient way of
+remotely monitoring their hives. Smart Hive focusses on key metrics such as hive
+weight, population, and cluster location inside the hive.
+
+This is done by integrating a number of sensors into the hive structure and
+connecting them to a Broadcom Development Platform. The sensors upload data to a
+local database hosted on the development platform that is then uploaded to a
+Firebase database that can be queried by our Android mobile application.
+
+Population data is gathered using G1A57HRJ00F IR Optical Interrupter modules
+mounted on either side of the gates at the entrance of the hive. These sensors
+register when a bee has entered or exited the hive based on which which detects
+movement first. This increments or decrements the population count and uploads
+it to the database.
+
+Weight data is gathered using a Wheatstone bridge underneath the hive. The
+weight on the scale is uploaded to the local database on the Broadcom
+Development Platform periodically and then uploaded to the Firebase database.
+
+Finally, DHT11 sensors are mounted on all four sides of the hive and track
+temperature changes to locate the cluster of bees inside the hive. Depending on
+which sensors register the highest temperature, we can determine where in the
+hive that the bees are located.
+
+### 2.6.2 Bill of Materials and Budget
+
+The following table breaks down the costs for the components used in this
+project. Many of these components can be ordered online where they can be found
+for cheaper prices, if you are willing to order internationally and wait for the
+increased shipping time.
+
+| **Item**                                                  | **Quantity** | **Cost** |
+|-----------------------------------------------------------|--------------|----------|
+| Infrared Optical Interrupter Module (GP1A57HRJ00F)        | 10           | \$80.80  |
+| Raspberry Pi Model B Complete Starter Kit – 32 GB Edition | 1            | \$112.99 |
+| 12” F-F Jumper Cables                                     | 30           | \$15.19  |
+| Acrylic Sheet                                             | 2            | \$7.58   |
+| Sensitivity Control Temperature Humidity Sensor DHT11     | 4            | \$7.20   |
+| Digital Bathroom Scale                                    | 1            | \$25.00  |
+| Seven segment display                                     | 1            | \$6.50   |
+| Breadboard                                                | 1            | \$8.80   |
+| INA125P                                                   | 1            | \$8.89   |
+| MCP3008                                                   | 1            | \$3.28   |
+| 1 kΩ resistor                                             | 1            | \$0.15   |
+| 39 Ω resistor                                             | 1            | \$0.15   |
+
+### 2.6.3 Time Commitment
+
+Smart Hive took us 30 weeks to develop and complete all aspects. Many of the
+steps that we took to finish this project do not need to be repeated, as anyone
+wishing to reproduce the project can download the files that we developed. This
+includes all of the CAD files for building the hive and sensor housing as well
+as the scripts running on the Broadcom Development Platform.
+
+The table below breaks down the expected time for someone wishing to reproduce
+the project on their own using our steps and files..
+
+| **Task**                           | **Time Estimate**       |
+|------------------------------------|-------------------------|
+| Acquire components                 | \~1 day                 |
+| Assemble circuit or make PCB       | \~20 minutes to 3 hours |
+| Cut and assemble housing           | 20 minutes to 2 hours   |
+| Integrate sensors into the housing | 2 hours                 |
+| Copy microSD image                 | 40 minutes              |
+| Configure Raspbian                 | 10 minutes              |
+| Setup python code                  | 10 minutes              |
+| Calibrate the system               | \~4 hours               |
+
+### 2.6.4 Mechanical Assembly
+
+Download the drawing files (.dwg and .svg) from
+<https://github.com/pwestman/pwestman.github.io/tree/master/Hive>. These are all
+of the CAD files that need to be printed on the sheets of acrylic. There should
+be a total of 4 files that will need to be cut from the sheets of acrylic:
+
+-   hive assembled.dwg
+
+-   hive parts.dwg
+
+-   hive_sensor_box.dwg
+
+-   strain_gauge_housing_final.svg
+
+First, assemble the four strain gauges into a wheatstone bridge. Each of the
+strain gauges I used had three terminals: red, white and black. The above
+diagram indicates how these terminals were wired. The remaining red terminals
+correspond to Excite and Sense, denoted by E+, E-, S+, and S-.
+
+However, some strain gauges only have 2 terminals and some have four. In case of
+the former, you must add a wire to each leg of the wheatstone bridge. In the
+latter case, you have a package that already contains a full wheatstone bridge,
+and must only find out which terminals correspond with E+, E-, S+, and S-.
+
+In order to determine the terminals of the strain gauges, measure the resistance
+between each pair of terminals in the Wheatstone bridge. The resistance between
+S+ and S- will change measurably, though not by very much, when weight is
+applied.
+
+Note that E+ and E- will be opposite each other, with S+ and S- between them.
+
+Connect the pins from the two ICs to the following pins on the Broadcom
+Development Platform as shown in the diagram below:
+
+![](README.images/DaunPm.jpg)
+
+A housing has been designed to hold the circuit, Raspberry Pi, and sensors. It
+is designed to be laser cut from 6 mm thick acryllic. The following file can be
+input into a laser cutter.
+
+Once the acryllic housing has been laser cut, assembly should be fairly
+straightforward, since the pieces will only fit together in the appropriate
+ways. Nonetheless, here are assembly instructions.
+
+1.  Assemble the outer walls first. 
+
+2.  The outer walls can then be slotted into the base. 
+
+3.  Next, the Raspberry Pi's housing can be assembled and slotted into the base.
+    Take note of the housing's orientation, as the pieces will not fit when
+    oriented incorrectly.
+
+4.  Each of the strain gauge holders can then be assembled and slotted into the
+    base. There are four of these.
+
+5.  The housing is finished. It may be secured using acryllic cement.
+
+The bottom piece of the Raspberry Pi's housing must be modified to make room for
+the microSD card. This can be accomplished with either a file or, ideally, a
+router. A 3 millimeter deep groove, positioned to coincide with the middle peg
+in both width and position, is sufficient.
+
+Next, assemble the hive housing. These acrylic pieces will once again, only fit
+together in the way they are meant to. This makes assembling the final pieces of
+the acrylic housing straightforward and simple.
+
+Next, place the IR Optical Interrupter sensors into the slots in the gate
+housing module at the entrance to the hive.
+
+Connect the signal pins of the sensors to the corresponding board pins on the
+Broadcom Development Platform according to the chart below.
+
+When looking at the acrylic entrance from the front, from left to right:
+
+| **Sensor**         | **Raspberry Pi GPIO Pins (Board)** |
+|--------------------|------------------------------------|
+| 1st Sensor - Front | 16                                 |
+| 1st Sensor - Back  | 18                                 |
+| 2nd Sensor – Front | 21                                 |
+| 2nd Sensor - Back  | 13                                 |
+| 3rd Sensor – Front | 12                                 |
+| 3rd Sensor – Back  | 15                                 |
+| 4th Sensor – Front | 29                                 |
+| 4th Sensor – Back  | 31                                 |
+| 5th Sensor – Front | 33                                 |
+| 5th Sensor - Back  | 35                                 |
+
+Connect a single cable to pin 2 (5V) on the Broadcom Development Platform and
+strip the rubber enclosure from the cable near the sensors and connect a small
+cable that has been stripped at one end to the power pin on each sensor. Wrap
+the two exposed sections together and cover in liquid electrical tape. Do the
+same thing for ground from pin 6 on the Broadcom Development Platform to each
+ground pin of the sensors.
+
+Finally, attach the DHT11 sensor on each side of the hive’s housing to the pins
+as outlined in the table below (when facing the entrance):
+
+| **Sensor** | **Broadcom Development Platform Pin (Board)** |
+|------------|-----------------------------------------------|
+| Front      | 19                                            |
+| Back       | 40                                            |
+| Right      | 38                                            |
+| Left       | 22                                            |
+
+Connect the power and ground pins for each sensor to the power cable and ground
+cable running from the Broadcom Development Platform (pin 2 and pin 6
+respectively) in the same way as for the gate sensors by stripping the rubber
+coding and splicing them together. In this way, all power and ground will be
+shared amongst all the sensors, eliminating excessive cable running from from
+the Broadcom Development Platform.
+
+### 2.6.5 Software Setup and Power Up
+
+From the project [repository](https://github.com/pwestman/pwestman.github.io),
+download the latest Raspberry Pi Smart Hive image. Next, follow the instructions
+located
+[here](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)
+to load the image onto your SD card. At this point, you will run our setup
+script which will ask you for the WiFi connection credentials such as SSID,
+password, security type, and authentication type. This setup script will
+generate a text file in the microSD card’s FAT32 partition. It will then display
+this hive’s unique identifier QR code. You can now take this SD card and put it
+into your Broadcom Development Platform. Once it is turned on, it will
+automatically begin taking sensor readings once every hour.
+
+The image you downloaded contains all of the software required to run the
+non-mobile component of Smart Hive. When your Smart Hive first boots up, it will
+use the WiFi credentials you supplied to connect itself to your network and the
+Internet. Next, download and install the Smart Hive Android app from the Google
+Play Store and rate it 5 stars. On your Android phone, run the Smart Hive app,
+which will prompt you to sign in to Google. If this is your first hive, the
+Android app will then request that you scan your hive’s unique identifier QR
+code. Once this is done, Broadcom Development Platform will connect to Smart
+Hive’s remote database and upload any sensor readings it has already gathered.
+These will now be visible from the Android app and your Smart Hive is setup.
+
+### 2.6.6 Unit Testing
+
+#### 2.6.6.1 Strain Gauges
+
+Likely due to its high gain, the strain gauge circuit evinces a degree of
+eletromagnetic interference. An ideal solution might be to seal the circuit
+within a Faraday cage, but I have opted to compensate for the interference in
+software. To this end, the python script responsible for attaining sensor
+readings takes one reading every 10 milliseconds and displays the average of
+every 10 consecutive readings.
+
+#### 2.6.6.2 Population Counting
+
+Since this project provides complete build instructions, unit testing should not
+be required for the IR sensors because we have done the unit testing to get the
+project to work. However, if you encounter any problems in the mechanical
+assembly, unit testing may be helpful. Here is some of the unit testing we did
+on the IR sensors for counting population:
+
+Testing one sensor:
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+         GPIO.setmode(GPIO.BOARD)
+            GPIO.setup(22,GPIO.OUT)
+            GPIO.setup(16,GPIO.IN)
+
+            count=0
+            gate1=1
+
+            try:
+                while True:
+                if GPIO.input(16)==0:
+                    if gate1==1:
+                        count+=1
+                        GPIO.output(22,True)
+                        time.sleep(0.2)
+                        GPIO.output(22,False)
+                        print count
+                        gate1=0
+        
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+You can replace the GPIO.setup and GPIO.input functions with any pin you wish to
+test. This will test if that one particular pin is working.
 
 **3. Conclusions**
 ==================
