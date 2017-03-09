@@ -314,30 +314,30 @@ Requirements](https://github.com/pwestman/pwestman.github.io#24-additional-requi
 
 [2.4.2 Safety](https://github.com/pwestman/pwestman.github.io#242-safety)
 
-[2.5 Schedule](https://github.com/pwestman/pwestman.github.io#25-schedule)
+2.5 Build Instructions
 
-[2.5.1 Week 4 Progress
+2.5.1 Introduction
+
+2.5.2 Bill of Materials and Budget
+
+2.5.3 Time Commitment
+
+2.5.4 Mechanical Assembly
+
+2.5.5 Software Setup and Power Up
+
+2.5.6 Unit Testing
+
+2.5.6.1 Strain Gauges
+
+2.5.6.2 Population Counting
+
+[2.6 Schedule](https://github.com/pwestman/pwestman.github.io#25-schedule)
+
+[2.6.1 Week 4 Progress
 Report](https://github.com/pwestman/pwestman.github.io#251-week-4-progress-report)
 
-2.5.6 Week 6 Progress Report
-
-2.6 Build Instructions
-
-2.6.1 Introduction
-
-2.6.2 Bill of Materials and Budget
-
-2.6.3 Time Commitment
-
-2.6.4 Mechanical Assembly
-
-2.6.5 Software Setup and Power Up
-
-2.6.6 Unit Testing
-
-2.6.6.1 Strain Gauges
-
-2.6.6.2 Population Counting
+2.6.6 Week 6 Progress Report
 
 [3. Conclusions](https://github.com/pwestman/pwestman.github.io#3-conclusions)
 
@@ -541,110 +541,10 @@ Beekeepers should always wear industry standard protective equipment when
 physically interacting with any active bee hives. This is necessary for the
 initial setup of the hardware on the beehive.
 
-2.5 Schedule
-------------
-
-### 2.5.1 Week 4 Progress Report
-
-Kristian,
-
-What follows is an account of our current progress.
-
-We are currently on schedule, viz the Gantt chart we submitted in first
-semester. We have begun researching the methods by which we will asynchronously
-gather sensor data and upload it to our database, which we expect to have
-finished in the coming weeks. Further, we are on track to have a fully working
-prototype by the Open House on April 8th at Humber College.
-
-All three independent hardware components have been completed, and our Android
-mobile application is nearly ready for release. At this point, we are focused on
-integration of the three hardware components into a single product. Over the
-coming weeks, we hope to acquire a Langstroth hive in order to integrate our
-hardware and begin production testing. We have made contact with people and
-organizations from whom we might borrow a hive. Failing that, our plan is to
-either build or buy a hive or suitable simulacrum. We estimate the cost of a
-nucleus Langstroth hive at around \$50. This cost will not be included in the
-total build cost since we will use it for testing, and this would not be an
-expense incurred by anyone already in possession of a hive.
-
-Our estimated budget for the integration phase of the project is \$300 and we
-are currently under budget. Barring unforeseen expenses, we will not exceed our
-budget this term, since all required components have already been acquired.
-
-Our biggest current challenge is testing. It will be difficult or impossible to
-test our final product during winter, as the bees are still clustered inside the
-hive. This means that any real life testing will have to wait until spring. In
-the meantime, we are planning on designing mock-ups to simulate expected use
-conditions. Thus, we must acquire a Langstroth hive, or a suitable stand-in, in
-order to simulate the types of bee activity we intend to measure.
-
-Thank you,
-
-Team Smart Hive
-
-Roberto Loja
-
-Yurii Sentsiv
-
-Paul Westman
-
-### 2.5.2 Week 6 Progress Report
-
-Dear Kristian,
-
-Over the past week, we made significant progress on the physical housing for
-Smart Hive. We designed the prototype that takes all of our independent models
-into account for tracking the weight, population and physical location of bee
-cluster in the hive and integrated them into a single unit. We designed the
-enclosure keeping in mind the specific sizes and functionalities of all the
-sensors, as well as leaving adequate space for cable management to ensure the
-final prototype is not only functional, but organized and visually appealing. We
-then transferred our designs into AutoCAD, where we were able to further focus
-in on the details of the hive’s sensor housing. Once the design was complete, we
-scheduled an appointment at the Prototype Lab at Humber College and had it cut
-out of 3mm acrylic. 
-
-At this point we are ready to assemble the Smart Hive housing and test it with
-our sensors. One problem that we have encountered is that we need to find a way
-to run our cables to the Raspberry Pi that is located beneath the hive. To solve
-this problem, we plan to drill a hole through the side of the case designed by
-Roberto last semester and run the cables through to the Raspberry Pi. In order
-to minimize the area taken up by the cables and to protect them from the
-environment outside the acrylic casing, we plan to wrap them in heat shrink
-tubing and feed them into the base.
-
-We all worked together on the design for the housing of Smart Hive.
-Specifically, Roberto designed the integration of the hive with the scale that
-is to be placed underneath the hive. Yurii designed the cut outs from the sides
-of the hive for the DHT11 sensors to fit in. Paul designed the gate housing to
-ensure that the optical interrupter sensors would slide in and the cables would
-be properly managed. Looking ahead, Roberto will be working on forwarding data
-to the database, Yurii will be ensuring the proper data is being fetched by the
-Android application, and Paul will be responsible for testing the sensors and
-verifying accurate data as well as finalizing the web database interface.  
-
-We are on track with our activities versus the current schedule. With the
-physical prototype near completion, we will be shifting our focus to writing the
-code that will forward the data retrieved by the sensors to our database. With
-reading week next week, we plan to finish most of these tasks during this time.
-This means we should be ready for the app, web, and database independent
-demonstration after reading week.
-
-Since we used the laser cutter in the Prototype Lab, we did not incur any costs
-when cutting our integrated prototype over the past week. At this point, there
-should be no additional costs incurred as we have all the materials to finish
-the prototype.
-
-Thank you,
-
-Team Smart Hive
-
-Roberto Loja, Paul Westman, and Yurii Sentsiv
-
-2.6 Build Instructions
+2.5 Build Instructions
 ----------------------
 
-### 2.6.1 Introduction
+### 2.5.1 Introduction
 
 The purpose of Smart Hive is to provide beekeepers a simple and efficient way of
 remotely monitoring their hives. Smart Hive focusses on key metrics such as hive
@@ -670,7 +570,7 @@ temperature changes to locate the cluster of bees inside the hive. Depending on
 which sensors register the highest temperature, we can determine where in the
 hive that the bees are located.
 
-### 2.6.2 Bill of Materials and Budget
+### 2.5.2 Bill of Materials and Budget
 
 The following table breaks down the costs for the components used in this
 project. Many of these components can be ordered online where they can be found
@@ -692,7 +592,7 @@ increased shipping time.
 | 1 kΩ resistor                                             | 1            | \$0.15   |
 | 39 Ω resistor                                             | 1            | \$0.15   |
 
-### 2.6.3 Time Commitment
+### 2.5.3 Time Commitment
 
 Smart Hive took us 30 weeks to develop and complete all aspects. Many of the
 steps that we took to finish this project do not need to be repeated, as anyone
@@ -714,7 +614,7 @@ the project on their own using our steps and files..
 | Setup python code                  | 10 minutes              |
 | Calibrate the system               | \~4 hours               |
 
-### 2.6.4 Mechanical Assembly
+### 2.5.4 Mechanical Assembly
 
 Download the drawing files (.dwg and .svg) from
 <https://github.com/pwestman/pwestman.github.io/tree/master/Hive>. These are all
@@ -791,16 +691,16 @@ When looking at the acrylic entrance from the front, from left to right:
 
 | **Sensor**         | **Raspberry Pi GPIO Pins (Board)** |
 |--------------------|------------------------------------|
-| 1st Sensor - Front | 16                                 |
-| 1st Sensor - Back  | 18                                 |
-| 2nd Sensor – Front | 21                                 |
-| 2nd Sensor - Back  | 13                                 |
-| 3rd Sensor – Front | 12                                 |
-| 3rd Sensor – Back  | 15                                 |
-| 4th Sensor – Front | 29                                 |
-| 4th Sensor – Back  | 31                                 |
-| 5th Sensor – Front | 33                                 |
-| 5th Sensor - Back  | 35                                 |
+| 1st Sensor - Front | 16 (green/yellow)                  |
+| 1st Sensor - Back  | 18 (green/white)                   |
+| 2nd Sensor – Front | 21 (green/red)                     |
+| 2nd Sensor - Back  | 13 (green/green)                   |
+| 3rd Sensor – Front | 12 (white/green)                   |
+| 3rd Sensor – Back  | 15 (green/orange)                  |
+| 4th Sensor – Front | 29 (white/black)                   |
+| 4th Sensor – Back  | 31 (white/white)                   |
+| 5th Sensor – Front | 33 (white/blue)                    |
+| 5th Sensor - Back  | 35 (white/red)                     |
 
 Connect a single cable to pin 2 (5V) on the Broadcom Development Platform and
 strip the rubber enclosure from the cable near the sensors and connect a small
@@ -826,7 +726,7 @@ coding and splicing them together. In this way, all power and ground will be
 shared amongst all the sensors, eliminating excessive cable running from from
 the Broadcom Development Platform.
 
-### 2.6.5 Software Setup and Power Up
+### 2.5.5 Software Setup and Power Up
 
 From the project [repository](https://github.com/pwestman/pwestman.github.io),
 download the latest Raspberry Pi Smart Hive image. Next, follow the instructions
@@ -851,9 +751,9 @@ code. Once this is done, Broadcom Development Platform will connect to Smart
 Hive’s remote database and upload any sensor readings it has already gathered.
 These will now be visible from the Android app and your Smart Hive is setup.
 
-### 2.6.6 Unit Testing
+### 2.5.6 Unit Testing
 
-#### 2.6.6.1 Strain Gauges
+#### 2.5.6.1 Strain Gauges
 
 Likely due to its high gain, the strain gauge circuit evinces a degree of
 eletromagnetic interference. An ideal solution might be to seal the circuit
@@ -862,7 +762,7 @@ software. To this end, the python script responsible for attaining sensor
 readings takes one reading every 10 milliseconds and displays the average of
 every 10 consecutive readings.
 
-#### 2.6.6.2 Population Counting
+#### 2.5.6.2 Population Counting
 
 Since this project provides complete build instructions, unit testing should not
 be required for the IR sensors because we have done the unit testing to get the
@@ -895,6 +795,106 @@ Testing one sensor:
 
 You can replace the GPIO.setup and GPIO.input functions with any pin you wish to
 test. This will test if that one particular pin is working.
+
+2.6 Schedule
+------------
+
+### 2.6.1 Week 4 Progress Report
+
+Kristian,
+
+What follows is an account of our current progress.
+
+We are currently on schedule, viz the Gantt chart we submitted in first
+semester. We have begun researching the methods by which we will asynchronously
+gather sensor data and upload it to our database, which we expect to have
+finished in the coming weeks. Further, we are on track to have a fully working
+prototype by the Open House on April 8th at Humber College.
+
+All three independent hardware components have been completed, and our Android
+mobile application is nearly ready for release. At this point, we are focused on
+integration of the three hardware components into a single product. Over the
+coming weeks, we hope to acquire a Langstroth hive in order to integrate our
+hardware and begin production testing. We have made contact with people and
+organizations from whom we might borrow a hive. Failing that, our plan is to
+either build or buy a hive or suitable simulacrum. We estimate the cost of a
+nucleus Langstroth hive at around \$50. This cost will not be included in the
+total build cost since we will use it for testing, and this would not be an
+expense incurred by anyone already in possession of a hive.
+
+Our estimated budget for the integration phase of the project is \$300 and we
+are currently under budget. Barring unforeseen expenses, we will not exceed our
+budget this term, since all required components have already been acquired.
+
+Our biggest current challenge is testing. It will be difficult or impossible to
+test our final product during winter, as the bees are still clustered inside the
+hive. This means that any real life testing will have to wait until spring. In
+the meantime, we are planning on designing mock-ups to simulate expected use
+conditions. Thus, we must acquire a Langstroth hive, or a suitable stand-in, in
+order to simulate the types of bee activity we intend to measure.
+
+Thank you,
+
+Team Smart Hive
+
+Roberto Loja
+
+Yurii Sentsiv
+
+Paul Westman
+
+### 2.6.2 Week 6 Progress Report
+
+Dear Kristian,
+
+Over the past week, we made significant progress on the physical housing for
+Smart Hive. We designed the prototype that takes all of our independent models
+into account for tracking the weight, population and physical location of bee
+cluster in the hive and integrated them into a single unit. We designed the
+enclosure keeping in mind the specific sizes and functionalities of all the
+sensors, as well as leaving adequate space for cable management to ensure the
+final prototype is not only functional, but organized and visually appealing. We
+then transferred our designs into AutoCAD, where we were able to further focus
+in on the details of the hive’s sensor housing. Once the design was complete, we
+scheduled an appointment at the Prototype Lab at Humber College and had it cut
+out of 3mm acrylic. 
+
+At this point we are ready to assemble the Smart Hive housing and test it with
+our sensors. One problem that we have encountered is that we need to find a way
+to run our cables to the Raspberry Pi that is located beneath the hive. To solve
+this problem, we plan to drill a hole through the side of the case designed by
+Roberto last semester and run the cables through to the Raspberry Pi. In order
+to minimize the area taken up by the cables and to protect them from the
+environment outside the acrylic casing, we plan to wrap them in heat shrink
+tubing and feed them into the base.
+
+We all worked together on the design for the housing of Smart Hive.
+Specifically, Roberto designed the integration of the hive with the scale that
+is to be placed underneath the hive. Yurii designed the cut outs from the sides
+of the hive for the DHT11 sensors to fit in. Paul designed the gate housing to
+ensure that the optical interrupter sensors would slide in and the cables would
+be properly managed. Looking ahead, Roberto will be working on forwarding data
+to the database, Yurii will be ensuring the proper data is being fetched by the
+Android application, and Paul will be responsible for testing the sensors and
+verifying accurate data as well as finalizing the web database interface.  
+
+We are on track with our activities versus the current schedule. With the
+physical prototype near completion, we will be shifting our focus to writing the
+code that will forward the data retrieved by the sensors to our database. With
+reading week next week, we plan to finish most of these tasks during this time.
+This means we should be ready for the app, web, and database independent
+demonstration after reading week.
+
+Since we used the laser cutter in the Prototype Lab, we did not incur any costs
+when cutting our integrated prototype over the past week. At this point, there
+should be no additional costs incurred as we have all the materials to finish
+the prototype.
+
+Thank you,
+
+Team Smart Hive
+
+Roberto Loja, Paul Westman, and Yurii Sentsiv
 
 **3. Conclusions**
 ==================
