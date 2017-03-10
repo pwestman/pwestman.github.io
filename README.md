@@ -8,6 +8,8 @@ csl: apa.csl
 
 Project Website: pwestman.github.io
 
+\\pagebreak
+
 **Declaration of Joint Authorship**
 ===================================
 
@@ -37,6 +39,8 @@ the database schema and maintaining data consistency. Finally, Paul acted as the
 scrum master in the development of the application, coordinating the team's
 workflow, managing supplies, ordering parts, scheduling meetings, and keeping
 track of the project schedule.
+
+\\pagebreak
 
 **Approved Proposal**
 =====================
@@ -210,6 +214,8 @@ developed in our program to create a collaborative IoT capstone project
 demonstrating our ability to learn how to support projects. We request approval
 of this project.
 
+\\pagebreak
+
 **Abstract**
 ============
 
@@ -225,8 +231,12 @@ we aim to allow beekeepers to tend to a greater number of hives, and to focus on
 those that require more attention, hopefully lessening the wider effects of
 colony collapse.
 
+\\pagebreak
+
 **Illustrations and Diagrams**
 ==============================
+
+\\pagebreak
 
 **Table of Contents**
 =====================
@@ -359,6 +369,8 @@ Recommendations](https://github.com/pwestman/pwestman.github.io#4-recommendation
 
 [5. References](https://github.com/pwestman/pwestman.github.io#6-references)
 
+\\pagebreak
+
 **1. Product Introduction**
 ===========================
 
@@ -391,6 +403,8 @@ The idea of Smart Hive is to find a way to track the movements and metrics of
 bees using sensors in the least invasive way possible, with up to date data
 available by request in real time from our application built for Android
 devices.
+
+\\pagebreak
 
 **2. Requirements Specifications**
 ==================================
@@ -969,11 +983,17 @@ Team Smart Hive
 
 Roberto Loja, Yurii Sentsiv, Paul Westman
 
+\\pagebreak
+
 **3. Conclusions**
 ==================
 
+\\pagebreak
+
 **4. Recommendations**
 ======================
+
+\\pagebreak
 
 **5. References**
 =================
