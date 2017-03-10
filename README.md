@@ -337,7 +337,9 @@ Requirements](https://github.com/pwestman/pwestman.github.io#24-additional-requi
 [2.6.1 Week 4 Progress
 Report](https://github.com/pwestman/pwestman.github.io#251-week-4-progress-report)
 
-2.6.6 Week 6 Progress Report
+2.6.2 Week 6 Progress Report
+
+2.6.3 Week 9 Progress Report
 
 [3. Conclusions](https://github.com/pwestman/pwestman.github.io#3-conclusions)
 
@@ -895,6 +897,66 @@ Thank you,
 Team Smart Hive
 
 Roberto Loja, Paul Westman, and Yurii Sentsiv
+
+### 2.6.3 Week 9 Progress Report
+
+Hi Kristian,
+
+This week we made significant progress towards the hardware integration of Smart
+Hive. We fastened all of the pieces together for the physical structure using
+acrylic cement, except for the joints that were designed to allow for quick
+setup and tear down for storage. Yurii acrylic cemented the holders for the
+DHT11 sensors and Paul and Roberto cemented the gate housing to the faceplate of
+the hive. Last week we remapped the GPIO pins on the Raspberry Pi to allow for
+all our sensors to be connected. Initially we thought we might have cut a hole
+through the scale housing in order to run all of the cables going to the
+sensors. However, the hole that was cut in the original design for the power to
+the Raspberry Pi proved to have enough room for all of our cables to run through
+as well. Next, we ran a length of cable for each of the DHT11 and IR Optical
+Interrupter sensors from the Pi for the signal pins and power and ground cables
+from the breadboard that terminated just outside the hole for the power cable of
+the Pi. We used specific colours corresponding to the pins that each sensor is
+connected to that match the colour of the pin running to the corresponding
+signal pin on the sensors. This means that in order to setup the Smart Hive for
+demonstration, we simply have to plug the cables running from the signal pins of
+the sensors to the matching color cables running to the appropriate signal pins
+on the Raspberry Pi. This greatly reduces the amount of time it takes to setup
+up the Smart Hive for demonstration and makes it nearly impossible to make a
+mistake.
+
+A problem we encountered this week involved cable management for the gate
+sensors. Each of the sensors requires power and ground, and initially we had a
+cable running from each of these pins on every sensor to the breadboard in the
+scale housing. This ended up being too many cables to fit through the hole in
+the scale housing. We solved this problem by having a single power and ground
+cable running into the gate housing and soldering a jumper wire from each power
+and ground pin to the power and ground bus. This reduced the number of cables
+running through the hole in the scale housing by 18, as we now only need 1
+signal cable for each of the 10 sensors and a single power and ground cable as
+each power and ground pin on the sensors is soldered to the single bus cable.
+Roberto had the idea for the bus and Paul and Roberto worked to solder these
+connections. Another problem we encountered was trying to run all of our scripts
+at the same time, as each script tried to initialize the GPIO pins. Roberto
+solved this issue by initializing the pins in the counter.py script for
+population counting and eliminating this code from the other scripts. For the
+final version, we will have a separate script to initialize the pins.
+
+Financially we remain on track with our budget. We haven’t had to purchase
+anything to integrate the hardware of our project and foresee no further
+expenses compared to what has been documented so far.
+
+The last step in our integration process will be to replace the mock data that
+currently populates our database and displayed on our app with the data that we
+can now see on the Raspberry Pi when our scripts are running. Apart from this,
+we plan to continue to fine tune the setup of the hive such as managing the
+cables in a more permanent fashion as to further simplify the setup of Smart
+Hive.
+
+Thanks,
+
+Team Smart Hive
+
+Roberto Loja, Yurii Sentsiv, Paul Westman
 
 **3. Conclusions**
 ==================
