@@ -314,32 +314,43 @@ Requirements](https://github.com/pwestman/pwestman.github.io#24-additional-requi
 
 [2.4.2 Safety](https://github.com/pwestman/pwestman.github.io#242-safety)
 
-2.5 Build Instructions
+[2.5 Build
+Instructions](https://github.com/pwestman/pwestman.github.io#25-build-instructions)
 
-2.5.1 Introduction
+[2.5.1
+Introduction](https://github.com/pwestman/pwestman.github.io#251-introduction)
 
-2.5.2 Bill of Materials and Budget
+[2.5.2 Bill of Materials and
+Budget](https://github.com/pwestman/pwestman.github.io#252-bill-of-materials-and-budget)
 
-2.5.3 Time Commitment
+[2.5.3 Time
+Commitment](https://github.com/pwestman/pwestman.github.io#253-time-commitment)
 
-2.5.4 Mechanical Assembly
+[2.5.4 Mechanical
+Assembly](https://github.com/pwestman/pwestman.github.io#254-mechanical-assembly)
 
-2.5.5 Software Setup and Power Up
+[2.5.5 Software Setup and Power
+Up](https://github.com/pwestman/pwestman.github.io#255-software-setup-and-power-up)
 
-2.5.6 Unit Testing
+[2.5.6 Unit
+Testing](https://github.com/pwestman/pwestman.github.io#256-unit-testing)
 
-2.5.6.1 Strain Gauges
+[2.5.6.1 Strain
+Gauges](https://github.com/pwestman/pwestman.github.io#2561-strain-gauges)
 
-2.5.6.2 Population Counting
+[2.5.6.2 Population
+Counting](https://github.com/pwestman/pwestman.github.io#2562-population-counting)
 
 [2.6 Schedule](https://github.com/pwestman/pwestman.github.io#25-schedule)
 
 [2.6.1 Week 4 Progress
-Report](https://github.com/pwestman/pwestman.github.io#251-week-4-progress-report)
+Report](https://github.com/pwestman/pwestman.github.io#261-week-4-progress-report)
 
-2.6.2 Week 6 Progress Report
+[2.6.2 Week 6 Progress
+Report](https://github.com/pwestman/pwestman.github.io#262-week-6-progress-report)
 
-2.6.3 Week 9 Progress Report
+[2.6.3 Week 9 Progress
+Report](https://github.com/pwestman/pwestman.github.io#263-week-9-progress-report)
 
 [3. Conclusions](https://github.com/pwestman/pwestman.github.io#3-conclusions)
 
