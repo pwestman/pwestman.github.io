@@ -241,8 +241,7 @@ colony collapse.
 **Table of Contents**
 =====================
 
-[Declaration of Joint
-Authorship](https://github.com/pwestman/pwestman.github.io#declaration-of-joint-authorship)
+### [Declaration of Joint Authorship](https://github.com/pwestman/pwestman.github.io#declaration-of-joint-authorship)
 
 [Approved
 Proposal](https://github.com/pwestman/pwestman.github.io#approved-proposal)
@@ -259,17 +258,13 @@ Remarks](https://github.com/pwestman/pwestman.github.io#concluding-remarks)
 
 [Abstract](https://github.com/pwestman/pwestman.github.io#abstract)
 
-[Illustrations and
-Diagrams](https://github.com/pwestman/pwestman.github.io#illustrations-and-diagrams)
+### [Illustrations and Diagrams](https://github.com/pwestman/pwestman.github.io#illustrations-and-diagrams)
 
-[1. Product
-Introduction](https://github.com/pwestman/pwestman.github.io#1-product-introduction)
+### [1. Product Introduction](https://github.com/pwestman/pwestman.github.io#1-product-introduction)
 
-[2. Requirements
-Specifications](https://github.com/pwestman/pwestman.github.io#2-software-requirements-specifications)
+### [2. Requirements Specifications](https://github.com/pwestman/pwestman.github.io#2-software-requirements-specifications)
 
-[2.1 Product
-Description](https://github.com/pwestman/pwestman.github.io#21-product-description)
+#### [2.1 Product Description](https://github.com/pwestman/pwestman.github.io#21-product-description)
 
 [2.1.1 Problem To Be
 Solved](https://github.com/pwestman/pwestman.github.io#211-problem-to-be-solved)
@@ -280,8 +275,7 @@ Users](https://github.com/pwestman/pwestman.github.io#212-intended-users)
 [2.1.3 Overview Of
 Product](https://github.com/pwestman/pwestman.github.io#213-overview-of-product)
 
-[2.2 System
-Description](https://github.com/pwestman/pwestman.github.io#22-system-description)
+#### [2.2 System Description](https://github.com/pwestman/pwestman.github.io#22-system-description)
 
 [2.2.1 Product
 Perspective](https://github.com/pwestman/pwestman.github.io#221-product-perspective)
@@ -298,8 +292,7 @@ Characteristics](https://github.com/pwestman/pwestman.github.io#224-user-charact
 [2.2.5 Constraints, Assumptions, and
 Dependencies](https://github.com/pwestman/pwestman.github.io#225-constraints-assumptions-and-dependencies)
 
-[2.3 Specific
-Requirements](https://github.com/pwestman/pwestman.github.io#23-specific-requirements)
+#### [2.3 Specific Requirements](https://github.com/pwestman/pwestman.github.io#23-specific-requirements)
 
 [2.3.1 Database](https://github.com/pwestman/pwestman.github.io#231-database)
 
@@ -317,15 +310,13 @@ Performance](https://github.com/pwestman/pwestman.github.io#235-performance)
 [2.3.6 Functional
 Requirements](https://github.com/pwestman/pwestman.github.io#236-functional-requirements)
 
-[2.4 Additional
-Requirements](https://github.com/pwestman/pwestman.github.io#24-additional-requirements)
+#### [2.4 Additional Requirements](https://github.com/pwestman/pwestman.github.io#24-additional-requirements)
 
 [2.4.1 Security](https://github.com/pwestman/pwestman.github.io#241-security)
 
 [2.4.2 Safety](https://github.com/pwestman/pwestman.github.io#242-safety)
 
-[2.5 Build
-Instructions](https://github.com/pwestman/pwestman.github.io#25-build-instructions)
+#### [2.5 Build Instructions](https://github.com/pwestman/pwestman.github.io#25-build-instructions)
 
 [2.5.1
 Introduction](https://github.com/pwestman/pwestman.github.io#251-introduction)
@@ -354,7 +345,7 @@ Counting](https://github.com/pwestman/pwestman.github.io#2562-population-countin
 [2.5.6.3 Temperature and
 Humidity](https://github.com/pwestman/pwestman.github.io#2563-temperature-and-humidity)
 
-[2.6 Schedule](https://github.com/pwestman/pwestman.github.io#25-schedule)
+#### [2.6 Schedule](https://github.com/pwestman/pwestman.github.io#25-schedule)
 
 [2.6.1 Week 4 Progress
 Report](https://github.com/pwestman/pwestman.github.io#261-week-4-progress-report)
@@ -365,12 +356,11 @@ Report](https://github.com/pwestman/pwestman.github.io#262-week-6-progress-repor
 [2.6.3 Week 9 Progress
 Report](https://github.com/pwestman/pwestman.github.io#263-week-9-progress-report)
 
-[3. Conclusions](https://github.com/pwestman/pwestman.github.io#3-conclusions)
+### [3. Conclusions](https://github.com/pwestman/pwestman.github.io#3-conclusions)
 
-[4.
-Recommendations](https://github.com/pwestman/pwestman.github.io#4-recommendations)
+### [4. Recommendations](https://github.com/pwestman/pwestman.github.io#4-recommendations)
 
-[5. References](https://github.com/pwestman/pwestman.github.io#6-references)
+### [5. References](https://github.com/pwestman/pwestman.github.io#6-references)
 
 \pagebreak
 
