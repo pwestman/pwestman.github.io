@@ -988,6 +988,42 @@ Roberto Loja, Yurii Sentsiv, Paul Westman
 **3. Conclusions**
 ==================
 
+With the rapid decline of the bee population, SmartHive provides beekeepers with
+an easy way to monitor the activity of a hive and allows them to intervene if
+necessary to ensure the survival of the colony. For under \$300, SmartHive is a
+relatively cheap way to incorporate electronics into the hive to give an up to
+date snapshot of the inner activities of the hive. Since this project can be
+reproduced in less than a week, give or take a few days for variances in
+shipping time for components, beekeepers can be up and running with SmartHive
+relatively quickly.
+
+The accompanying Android app allows beekeepers to monitor their hives from
+anywhere with a network connection.  With scripts running constantly on the
+Broadcom Development Platform, the sensors on the hive are constantly reading
+data about temperature, humidity, weight, and population and uploading this data
+to the database at defined intervals. Temperature and humidity data from inside
+the hive triangulates the position of the cluster, allowing the beekeeper to
+know precisely where in the hive the majority of bees are located. The weight
+readings can indicate if the bees will have enough food to last through the
+winter, as the weight readings are directly proportional to the food stores
+inside the hive. Finally, tracking the population over time allows the beekeeper
+to know how many bees are in the hive at any particular time and to determine
+the activity at the gate. This is crucial for determining if bees are dying at a
+rapid rate and if intervention is necessary on the part of the beekeeper. After
+initial setup, virtually no further work is required of the beekeeper to monitor
+data from the hive.
+
+SmartHive will reduce the number of times that a beekeeper needs to go
+physically inspect the hive as he/she can get an accurate idea of the activities
+in the hive from simply checking the app. This will allow beekeepers to monitor
+more hives since they do not need to go and physically check each one as often.
+
+The goal of SmartHive is to give beekeepers access to more information about
+each hive, allowing them to make better decisions in terms of intervention to
+ensure the health and survival of the colony. This, in turn, will promote the
+survival of bees and allow them to continue their crucial role of pollinating
+our crops, which is essential to food production.
+
 \pagebreak
 
 **4. Recommendations**
