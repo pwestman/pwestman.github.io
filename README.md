@@ -351,6 +351,8 @@ Gauges](https://github.com/pwestman/pwestman.github.io#2561-strain-gauges)
 [2.5.6.2 Population
 Counting](https://github.com/pwestman/pwestman.github.io#2562-population-counting)
 
+2.5.6.3 Temperature and Humidity
+
 [2.6 Schedule](https://github.com/pwestman/pwestman.github.io#25-schedule)
 
 [2.6.1 Week 4 Progress
@@ -822,6 +824,24 @@ Testing one sensor:
 
 You can replace the GPIO.setup and GPIO.input functions with any pin you wish to
 test. This will test if that one particular pin is working.
+
+#### 2.5.6.3 Temperature and Humidity
+
+For the unit testing I used my original program with reading temperature and
+humidity, but instead of displaying only the avarage result I display all the
+readings, then the following result should be expected:
+
+![](README.images/epyHgd.jpg)
+
+Unit testing code can be found at <https://n01060890.github.io/buildlog.html>
+under the Unit Testing heading.
+
+If you don’t have the PCB with the LED, it’s ok, the program will still work.
+With Adafruit library we can use any GPIO pin. In case if any of the sensor
+isn’t operating properly, the program will take longer time to execute, as it
+will try to access the sensor few times. If thank was unsuccessful, then the
+message will appear, that will inform user that there a problem with particular
+sensor.
 
 2.6 Schedule
 ------------
