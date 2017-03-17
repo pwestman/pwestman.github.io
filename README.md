@@ -1040,6 +1040,42 @@ our crops, which is essential to food production.
 **4. Recommendations**
 ======================
 
+To improve upon this project, someone may want to use a real Langstroth hive and
+implement the sensors into its structure. In this case, our design would still
+work in terms of the gate housing, scale, temperature and humidity sensors,
+however modifications would need to be made. For example, the weight housing
+would need to be larger to properly support the hive on top as well as be made
+out of a more solid material such as would or even thicker acrylic.
+
+In addition, the SmartHive would need to be “weather proofed”, meaning that all
+connected edges would need to be sealed to eliminate the possibility of water
+coming into contact with the electronics. This is very important because hives
+spend all of their time outside, exposed to all of the elements of nature. This
+could be done using some sort of epoxy on the edges.
+
+Another consideration would be improved cable management. For our using, we
+simply heat shrunk the wires together, however, in some case there is excess
+cable exposed. To improve upon this, someone could measure out the specific
+lengths of cable needed before wiring the components to ensure that cabling is
+kept to a minimum. Also, an enclosure could be built onto the hive to completely
+hide the wires from view, with only the connectors exposed for ease of setting
+up the Smart Hive.
+
+Another recommendation would be to secure the sensors in place, rather than
+temporarily fastening them using tape. We chose not to securely fasten the
+sensors because it allowed us to remove them to make improvements along the way.
+This could be done using gorilla glue or another strong adhesive to ensure that
+the sensors do not move around if the hive is being transported.
+
+Finally, the cost could be reduced by using a Raspberry Pi Zero as the Broadcom
+Development Platform instead of the Raspberry Pi 3 Model B. The Raspberry Pi
+Zero retails for \$5.00 CAD for the board versus the Raspberry Pi 3 model B
+which retails for \$35.00 CAD. The Raspberry Pi Zero does not have header pins
+already in place and so this would require the builder to solder on the header
+pins before the sensors can be connected using the jumper wires. The Raspberry
+Pi Zero also has a built in WiFi module, so this would not require any
+additional configurations as to what is already outlined above.
+
 \pagebreak
 
 **5. References**
