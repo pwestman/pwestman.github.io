@@ -351,7 +351,8 @@ Gauges](https://github.com/pwestman/pwestman.github.io#2561-strain-gauges)
 [2.5.6.2 Population
 Counting](https://github.com/pwestman/pwestman.github.io#2562-population-counting)
 
-2.5.6.3 Temperature and Humidity
+[2.5.6.3 Temperature and
+Humidity](https://github.com/pwestman/pwestman.github.io#2563-temperature-and-humidity)
 
 [2.6 Schedule](https://github.com/pwestman/pwestman.github.io#25-schedule)
 
