@@ -356,7 +356,8 @@ Report](https://github.com/pwestman/pwestman.github.io#262-week-6-progress-repor
 [2.6.3 Week 9 Progress
 Report](https://github.com/pwestman/pwestman.github.io#263-week-9-progress-report)
 
-2.6.4 Week 10 Progress Report
+[2.6.4 Week 10 Progress
+Report](https://github.com/pwestman/pwestman.github.io#264-week-10-progress-report)
 
 ### [3. Conclusions](https://github.com/pwestman/pwestman.github.io#3-conclusions)
 
