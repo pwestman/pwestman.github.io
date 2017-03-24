@@ -356,6 +356,8 @@ Report](https://github.com/pwestman/pwestman.github.io#262-week-6-progress-repor
 [2.6.3 Week 9 Progress
 Report](https://github.com/pwestman/pwestman.github.io#263-week-9-progress-report)
 
+2.6.4 Week 10 Progress Report
+
 ### [3. Conclusions](https://github.com/pwestman/pwestman.github.io#3-conclusions)
 
 ### [4. Recommendations](https://github.com/pwestman/pwestman.github.io#4-recommendations)
@@ -993,6 +995,56 @@ Thanks,
 Team Smart Hive
 
 Roberto Loja, Yurii Sentsiv, Paul Westman
+
+### 2.6.4 Week 10 Progress Report
+
+Hi Kristian,
+
+This email describes some of the troubleshooting that we had to do over the last
+couple of weeks to address issues that arose from integrating our project.
+
+In order to manage the cables running from the DHT11 sensors to the Raspberry Pi
+and to prevent interference and inconvenience in setup, additional holes in the
+base enclosure of the hive were added. As of now, the scale enclosure has one
+hole on each side to allow for the wires from the temperature and humidity
+sensors to pass through, as well as the original hole, where the power cable and
+IR sensors are wired through. This allows us to have better cable management as
+the cables can be shorter and are much tidier, rather than being in a
+complicated bundle. There were problems in previous DHT11 sensors wiring, as the
+signal wasn’t stable due to long cables attached to the sensors. To solve this
+issue, we soldered wires to the pins of the DHT11 sensors with a female
+connector on the other end in order to simplify the wiring. This also makes it
+much easier to set up the hive, providing easy access to the bottom of the hive
+when the Raspberry Pi resides.
+
+We ran into some problems when testing the population counting through the gate
+housing. First, we noticed that the IR beam between the two sensors was sitting
+too low, meaning that our pipe cleaner test bee was not always detected as it
+passed through. In order to fix this issue, we raised the sensors in the gate
+housing by 6mm, by attaching two 3 by 3mm pieces of acrylic between the sensors
+and the gate. This raised the sensors just high enough that it detects movement
+through the gate more accurately, as the IR beam is now closer to the middle
+between the top and bottom of each entrance.
+
+Another issue that we needed to fix was a ridge that had been left at the base
+of each gate into the hive on both the inner and outer opening. This was a small
+design issue that was overlooked when we had the acrylic cut for the gate
+housing. It was a problem because it made it harder for our test bees to pass
+through the gates, often getting stuck inside the gate housing. We solved this
+issue by filing down the ridge on both the inner and outer opening for each
+gate. This proved to be a quicker and easier method than re-cutting the acrylic
+because all of the pieces had already been cemented together.
+
+This week, there we did not make any new purchases that went against the budget.
+The solder was from the original solder that we used to create the hardware last
+semester. The pieces of acrylic that were used to raise the gate were scrap
+pieces that we had saved from when we originally cut the hive. We were able to
+borrow the file to shave down the base of each gate at the entrance and so this
+also didn’t affect the budget.
+
+Team Smart Hive
+
+Yurii Sentsiv, Roberto Loja, and Paul Westman
 
 \pagebreak
 
