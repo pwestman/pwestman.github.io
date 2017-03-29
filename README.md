@@ -343,7 +343,7 @@ Humidity](https://github.com/pwestman/pwestman.github.io#2563-temperature-and-hu
 
 #### [2.6 Schedule](https://github.com/pwestman/pwestman.github.io#25-schedule)
 
-#### 2.6.1 Phase 1
+#### [2.6.1 Phase 1](https://github.com/pwestman/pwestman.github.io#261-phase-1-1)
 
 2.6.1.1 Week 1: Writing proposal
 
@@ -374,7 +374,7 @@ Report, and Status Meeting
 
 2.6.1.14 Week 14: Project Videos and Status Meeting
 
-#### 2.6.2 Phase 2
+#### [2.6.2 Phase 2](https://github.com/pwestman/pwestman.github.io#262-phase-2-1)
 
 2.6.2.1 Week 1: Scheduling and Group Meetings
 
