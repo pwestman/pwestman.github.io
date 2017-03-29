@@ -1,14 +1,13 @@
 ---
 bibliography: RPiCitations.bib
 csl: apa.csl
+title: Smart Hive
+author: "Roberto Loja, Yurii Sentsiv, Paul Westman"
 ---
 
-**Smart Hive**
-==============
+\vfill March 31, 2017
 
-Project Website: pwestman.github.io
-
-\pagebreak
+\pagebreak \linespread{2} \selectfont
 
 **Declaration of Joint Authorship**
 ===================================
@@ -49,6 +48,8 @@ track of the project schedule.
 
 Prepared by Roberto Loja, Yurii Sentsiv, Paul Westman  
 *Computer Engineering Technology Students*
+
+Project Website: pwestman.github.io
 
 January 20, 2017
 
@@ -233,11 +234,6 @@ colony collapse.
 
 \pagebreak
 
-**Illustrations and Diagrams**
-==============================
-
-\pagebreak
-
 **Table of Contents**
 =====================
 
@@ -347,23 +343,98 @@ Humidity](https://github.com/pwestman/pwestman.github.io#2563-temperature-and-hu
 
 #### [2.6 Schedule](https://github.com/pwestman/pwestman.github.io#25-schedule)
 
-[2.6.1 Week 4 Progress
-Report](https://github.com/pwestman/pwestman.github.io#261-week-4-progress-report)
+#### 2.6.1 Phase 1
 
-[2.6.2 Week 6 Progress
-Report](https://github.com/pwestman/pwestman.github.io#262-week-6-progress-report)
+2.6.1.1 Week 1: Writing proposal
 
-[2.6.3 Week 9 Progress
-Report](https://github.com/pwestman/pwestman.github.io#263-week-9-progress-report)
+2.6.1.2 Week 2: Creating Project Schedule and Initial Project Team Meeting
 
-[2.6.4 Week 10 Progress
-Report](https://github.com/pwestman/pwestman.github.io#264-week-10-progress-report)
+2.6.1.3 Week 3: Creating Budget and Status Meeting
+
+2.6.1.4 Week 4: Acquiring Components and Writing Progress Report
+
+2.6.1.5 Week 5: Mechanical Assembly and Writing Progress Report
+
+2.6.1.6 Week 6: PCB Fabrication (Power Up Milestone)
+
+2.6.1.7 Week 7: Interface Wiring, Placard Design, Status Meeting
+
+2.6.1.8 Week 8: Preparing for Demonstration
+
+2.6.1.9 Week 9: Writing Progress Report and Demonstrating Project
+
+2.6.1.10 Week 10: Editing Build Video
+
+2.6.1.11 Week 11: Incorporation of Feedback From Demonstration, Writing Progress
+Report, and Status Meeting
+
+2.6.1.12 Week 12: Practice Presentations
+
+2.6.1.13 Week 13: Presentations, Collaborators Present
+
+2.6.1.14 Week 14: Project Videos and Status Meeting
+
+#### 2.6.2 Phase 2
+
+2.6.2.1 Week 1: Scheduling and Group Meetings
+
+2.6.2.2 Week 2: Group Project Status Update and Submission of Proposal Inline
+Citation and Reference Pages
+
+2.6.2.3 Week 3: App, Web, and Database Software Requirements Specification
+
+2.6.2.4 Week 4: Group Project Status Update
+
+2.6.2.5 Week 5: Technical Report Structure and Mechanics and Content for
+Abstract, Introduction, and Declaration of Authorship
+
+2.6.2.6 Week 6: Group Project Status Update
+
+2.6.2.7 Week 7: App, Web, and Database Independent Demonstration and Merging of
+Build Instructions Into Body of Technical Report
+
+2.6.2.8 Week 8: Group Project Status Update
+
+2.6.2.9 Week 9: OACETT Basic Requirement Report Checklist
+
+2.6.2.10 Week 10: Group Project Status Update
+
+2.6.2.11 Week 11: Technical Report Due
+
+2.6.2.12 Week 12: Group Project Status Update
+
+2.6.2.13 Week 13: Spring Open House Demonstrations
+
+2.6.2.14 Week 14: Group Presentations
+
+2.6.2.15 Week 15: Group Video Script Due, Filming, Demonstration of Project in
+its Final Form
 
 ### [3. Conclusions](https://github.com/pwestman/pwestman.github.io#3-conclusions)
 
 ### [4. Recommendations](https://github.com/pwestman/pwestman.github.io#4-recommendations)
 
 ### [5. References](https://github.com/pwestman/pwestman.github.io#6-references)
+
+\pagebreak
+
+**Illustrations and Diagrams**
+==============================
+
+Figure 1: Breadboard Showing ICs and Pin Numbers
+
+Figure 2: Screen Shot of Temperature and Humidity Readings on the Raspberry Pi
+Terminal
+
+Figure 3: MCP 3008 Analog to Digital Converter
+
+Figure 4: Circuit Diagram for Amplifier
+
+Figure 5: Circuit Diagram for Finalized Circuit
+
+Figure 6: Eagle File Representation
+
+Figure 7: The Assembled Acrylic Scale Housing
 
 \pagebreak
 
@@ -672,7 +743,7 @@ Note that E+ and E- will be opposite each other, with S+ and S- between them.
 Connect the pins from the two ICs to the following pins on the Broadcom
 Development Platform as shown in the diagram below:
 
-![](README.images/DaunPm.jpg)
+![Breadboard Showing ICs and Pin Numbers](README.images/Breadboard.jpg)
 
 A housing has been designed to hold the circuit, Raspberry Pi, and sensors. It
 is designed to be laser cut from 6 mm thick acryllic. The following file can be
@@ -825,7 +896,7 @@ For the unit testing I used my original program with reading temperature and
 humidity, but instead of displaying only the avarage result I display all the
 readings, then the following result should be expected:
 
-![](README.images/epyHgd.jpg)
+![Screen Shot of Temperature and Humidity Readings on the Raspberry Pi Terminal](README.images/HumidityTemperature.jpg)
 
 Unit testing code can be found at <https://n01060890.github.io/buildlog.html>
 under the Unit Testing heading.
@@ -840,7 +911,327 @@ sensor.
 2.6 Schedule
 ------------
 
-### 2.6.1 Week 4 Progress Report
+### 2.6.1 Phase 1
+
+#### 2.6.1.1 Week 1: Writing proposal
+
+Before we began integration of our 3 separate projects, we designed and built
+the hardware that would be the basis for Smart Hive. The population counter,
+hive scale, and temperature and humidity tracking were proposed as separate
+projects for the fall semester.
+
+#### 2.6.1.2 Week 2: Creating Project Schedule and Initial Project Team Meeting
+
+#### 2.6.1.3 Week 3: Creating Budget and Status Meeting
+
+#### 2.6.1.4 Week 4: Acquiring Components and Writing Progress Report
+
+**Progress Report: Paul Westman**
+
+For the project Bee Tracker, I have submitted a project proposal outlining the
+aim of the project and what it hopes to accomplish. A GitHub page has been setup
+and can be viewed at the link pwestman.github.io where others can follow my
+project as it is put together and even follow the steps to recreate their own
+Bee Tracker. I have created a project schedule in the form of a Gantt chart,
+outlining the key events and critical path of the project. This will allow me to
+complete the project on time as I have outlined the specific tasks that need to
+be completed and when they must be completed so as not to delay the submission
+of the final project. I have also created a budget, outlining the parts that
+will be needed to build the hardware required for Bee Tracker. These parts have
+mostly been ordered, and now I am waiting on their arrival so that I can begin
+to put together the hardware that will be responsible for collecting data from
+the bee hive and sending it to the database.
+
+Attached to this document are some of the receipts that were issued upon
+ordering the required parts for the project. When these parts arrive, I will
+document a portion of the unboxing to add to my GitHub page so that others who
+may want to replicate the project can do so. I will also document putting the
+hardware together so that others can replicate this process as well. As the
+components begin to arrive, I will be adding these videos to my GitHub page as I
+unbox and assemble each component.
+
+**Progress Report: Yurii Sentsiv**
+
+As for this time, my team members and me have figured out who is doing which
+part of final project. I am doing the temperature/humidity sensors
+implementation, in order to see the fluctuation of these data in the hive. This
+will be useful to be able to understand what is happening with hives. In order
+to be able to do it, after small research on web, I figured out that the best
+sensor that will satisfy my needs is Temperature & Humidity Sensor DHT11. In
+order to get more accurate measurement, I’ve bought 5 pieces of this sensor from
+the local retailer.
+
+#### 2.6.1.5 Week 5: Mechanical Assembly and Writing Progress Report
+
+**Progress Report: Yurii Sentsiv**
+
+At his point I've done soldering of the PCB which is due this week on my project
+scedule. So far I need to check at prototype lab if the correct voltages are
+produced, in order not to burn my Raspberry PI. So far I haven't experienced any
+issues, except I need to make sure that my PCB works properly. Our teacher
+Kristian Medri   
+suggested our team to check the prototype of the project, which is simmilar to
+our in Huber College, and contact teacher Peter Wheeler, who is in charge of
+this project, to get useful information on what he researched. For my part of
+the projct I've alredy got all the parts that I need and I am on trak in our
+financial status. My budget so far is \$114.84 :
+
+-   Raspberry Pi 3 Model B Board : CDN\$ 57.49
+
+    -   Enokay Case for Raspberry Pi 3 : CDN\$ 9.99
+
+    -   HDMI Cable : CDN\$ 9.99
+
+    -   Protection glasses : CDN\$ 4.99
+
+    -   DTH11 sensors x5: CDN\$ 16.89
+
+    -   MicroSD 32gb : CDN\$ 16.49
+
+**Progress Report: Roberto Loja**
+
+Our group has, uniquely, divided each part of our ambitious project between
+members. That is, rather than each team member building a different version of
+the same, relatively simple device, we have opted to each research and build one
+aspect of our final group project.
+
+After much research and deliberation, including information gleamed from e-mails
+I exchanged with Fran Freeman, member of the Toronto Beekeepers Cooperative and
+one of the keepers of Humber's bees, we have decided to track the following
+data:
+
+Weight:
+
+This is crucial, since bees do not truly hibernate. Instead, bees ball up into a
+cluster (a big ball of bees), and flutter their wings, which causes their bodies
+to vibrate, increasing the temperature of their immediate surroundings. As a
+multitude of bees understakes this same behaviour, the temperature of the entire
+cluster/hive is kept significantly above freezing.
+
+Naturally, this behaviour expends energy, which the bees gain from consuming the
+honey they have stocked up for winter. As they consume the honey, the hive's
+weight decreases.
+
+Thus, it is fatally important (for the bees) that beekeepers ensure that every
+hive has enough honey to last through winter.
+
+We aim to provide a running measure of a hive's weight, so that beekeepers can
+estimate the likelihood of a hive's ability to survive through winter.
+
+Population:
+
+Although the beekeepers we contacted did not think that a running population
+count could be accurate, I believe that I have devised a system to keep an
+accurate count of a hive's population. I will elucidade this system in a future
+post.
+
+Regardless of our system's accuracy, we have reasoned that even a rough
+population count could be helpful to beekeepers, since hives occasionally
+"swarm". That is, for variagated reasons, a bee hive occasionally witnesses a
+noticeable exodus of bees intending to establish a new hive elsewhere.
+
+By keeping a rough count of population, via the sensing of bee egress and
+ingress, we will be able to, at least, detect swarm behaviour, which should
+prove to be a useful metric of hive health.
+
+Temperature:
+
+Finally, when bees cluster for winter, it is also important to know exactly
+where in the hive the cluster is located. For example, if it is too close to a
+corner, they run the risk of overheating.
+
+In order to detect this, we will place a temperature sensor on each corner of
+the hive, then use their readings to triangulate the cluster's position.
+
+Based on a mutual assessment of our relative strengths, I have been tasked with
+designing the sensor circuit for measuring the hive's weight.
+
+#### 2.6.1.6 Week 6: PCB Fabrication (Power Up Milestone)
+
+#### 2.6.1.7 Week 7: Interface Wiring, Placard Design, Status Meeting
+
+#### 2.6.1.8 Week 8: Preparing for Demonstration
+
+#### 2.6.1.9 Week 9: Writing Progress Report and Demonstrating Project
+
+**Progress Report: Paul Westman**
+
+With the final components arriving earlier last week. I am on track to
+demonstrate the functionality of Bee Tracker at the Open House on Saturday. I
+will be showing the counting functionality of the bee hive where I am able to
+keep a running count of how many bees are in the hive at any time by tracking
+bees that have entered and left the hive. This will be done using the IR sensors
+in the gateway at the front of the mock hive entrance that I cut from acrylic.
+In my mock hive entrance, there are 5 openings, each 1cm wide and 2cm tall. For
+the purpose of the open house, I will only be demonstrating the functionality of
+the counting mechanism for one of these openings to keep things simple. To
+demonstrate its functionality without bees, I will use a small marble that will
+be rolled through the entrance to show how the sensors will work. I will be
+using a GP1A57HRJ00F assembled module optical interrupter on either side of the
+entrance as to detect when a bee is entering the hive or leaving, depending on
+which of these sensors detects movement first.
+
+Since a database has not been set up yet to store the information that is
+collected from the sensor, I will be demonstrating the functionality by either
+lighting up an LED when the sensor is activated or printing a running count to a
+screen. In order to print a count to a screen, I will have to coordinate having
+a monitor at the open house. Since I am not sure if this is feasible, an LED
+will be my backup plan. Along with the other members of my group, we have cut a
+mock hive from acrylic and will each be demonstrating a component of the fully
+functional hive that we plan to integrate in the following semester with our
+Android application.
+
+Once the database is set up, I will be implementing the counter to keep a
+running total of bees at various incremental points in time. The counter will
+keep track of the number of bees in the hive by incrementing when a bee enters
+and decrementing when a bee leaves, and pushing the value of the counter to the
+database at a specified interval. However, for the open house I will simply be
+demonstrating the functionality of the mechanism used to count the bees.
+
+I have had to spend a bit more money than expected to get the parts that I
+needed in time. Some of the obstacles I was facing were that the cheap
+components were going to take too long to arrive and so I was forced to spend a
+little bit extra in order to ensure the components were here in time for the
+milestones. Otherwise the project is on track and on schedule to meet the
+upcoming deadline of the November 12th open house at the college.
+
+**Progress Report: Roberto Loja**
+
+So far, I have been using an MCP 3008 Analog to Digital converter to receive the
+strain gauge signal in my Raspberry Pi.
+
+![MCP 3008 Analog to Digital Converter](README.images/IC.jpg)
+
+This is a 10-bit ADC, for which python code is readily available
+(viz [Adafruit](https://www.adafruit.com/product/856)). It can be operated in
+differential mode, taking the difference between two analog input channels.
+
+However, when the strain gauges are plugged dirrectly into the ADC, the voltage
+change between terminals is not detectable, being so small as to be overwhelmed
+by interference. Thus, an amplifier is needed.
+
+![Circuit Diagram for Amplifier](README.images/CircuitDiagram.jpg)
+
+The above is a Differential Amplifier, which I built using standard 741 OpAmps.
+
+When R1 = R2, the gain of the differential amplifier is equal to the ratio Rf /
+Rg.
+
+I experimented with a wide range of gain settings, but only ever managed to
+achieve a ΔV of 0.5 V, from \~1.5 V to \~2.0 V. Since the MCP3008 used a ground
+reference of 0 V and a Vref of 3.3 V, this amounted to a terrible waste of
+resolution. This could be somewhat mitigated by using a voltage divider to
+produce a Vref of 2 V, but this approach unnacceptably decreased the signal to
+noise ratio of the circuit.
+
+Given the nature of the 741 OpAmp, however, I was able to achieve nearly full
+ADC resolution by supplying the 741s with -1 V and 5 V, since 741s tend only to
+come within between 1 and 1.5 Volts of their supply voltages. Unfortunately,
+this was also not a solution, since the amplifier must also be powered by the
+Raspberry Pi, which can only provide 0 V, 3.3 V, and 5 V.
+
+Finally, then, I decided to use a purpose built Instrumentation Amplifier,
+namely the INA125P. This achieved the desired result of using the full 10 bits
+of resolution from the ADC.
+
+#### 2.6.1.10 Week 10: Editing Build Video
+
+#### 2.6.1.11 Week 11: Incorporation of Feedback From Demonstration, Writing Progress Report, and Status Meeting
+
+**Progress Report: Paul Westman**
+
+With the final components arriving earlier last week. I am on track to
+demonstrate the functionality of Bee Tracker at the Open House on Saturday. I
+will be showing the counting functionality of the bee hive where I am able to
+keep a running count of how many bees are in the hive at any time by tracking
+bees that have entered and left the hive. This will be done using the IR sensors
+in the gateway at the front of the mock hive entrance that I cut from acrylic.
+In my mock hive entrance, there are 5 openings, each 1cm wide and 2cm tall. For
+the purpose of the open house, I will only be demonstrating the functionality of
+the counting mechanism for one of these openings to keep things simple. To
+demonstrate its functionality without bees, I will use a small marble that will
+be rolled through the entrance to show how the sensors will work. I will be
+using a GP1A57HRJ00F assembled module optical interrupter on either side of the
+entrance as to detect when a bee is entering the hive or leaving, depending on
+which of these sensors detects movement first.
+
+Since a database has not been set up yet to store the information that is
+collected from the sensor, I will be demonstrating the functionality by either
+lighting up an LED when the sensor is activated or printing a running count to a
+screen. In order to print a count to a screen, I will have to coordinate having
+a monitor at the open house. Since I am not sure if this is feasible, an LED
+will be my backup plan. Along with the other members of my group, we have cut a
+mock hive from acrylic and will each be demonstrating a component of the fully
+functional hive that we plan to integrate in the following semester with our
+Android application.
+
+Once the database is set up, I will be implementing the counter to keep a
+running total of bees at various incremental points in time. The counter will
+keep track of the number of bees in the hive by incrementing when a bee enters
+and decrementing when a bee leaves, and pushing the value of the counter to the
+database at a specified interval. However, for the open house I will simply be
+demonstrating the functionality of the mechanism used to count the bees.
+
+I have had to spend a bit more money than expected to get the parts that I
+needed in time. Some of the obstacles I was facing were that the cheap
+components were going to take too long to arrive and so I was forced to spend a
+little bit extra in order to ensure the components were here in time for the
+milestones. Otherwise the project is on track and on schedule to meet the
+upcoming deadline of the November 12th open house at the college.
+
+**Progress Report: Yurii Senstiv**
+
+This week is our Individual progress report due, as well as Hardware
+Demonstration at Open House Saturday November 12 10am – 2pm.
+
+At his point we were able to laser cut our casing for the project in prototype
+lab, using CorelDRAW software. All the slots were cutted to hold all the sensors
+used. Also, I was wiring and writing software for my sensors to work together
+and give cluster information location. So far all the reading are working, but
+the logic on cluster detection is still under development. I should be able to
+accomplish everything by Saturday. So far I am following the project schedule.
+
+So far the development and creating the casing was made by our team last week.
+At this point everyone is working on his own individual hardware part.
+
+The only problem that I've encountered, was burning one of my sensors, due to
+inattention to circuit built.
+
+So far, on financial side, nothing been changed.
+
+**Progress Report: Roberto Loja**
+
+The circuit design has been finalized.
+
+![Circuit Diagram for Finalized Circuit](README.images/ScaleCircuit.jpg)
+
+A printed circuit board was designed, based on the above schematic, which can
+simply be plugged into the Raspberry Pi's GPIO bus.
+
+![Eagle File Representation](README.images/Eagle.jpg)
+
+Finally, a housing has been designed to hold the Raspberry Pi and strain gauges.
+
+![The Assembled Acrylic Scale Housing](README.images/ScaleHousing.jpg)
+
+#### 2.6.1.12 Week 12: Practice Presentations
+
+#### 2.6.1.13 Week 13: Presentations, Collaborators Present
+
+#### 2.6.1.14 Week 14: Project Videos and Status Meeting
+
+### 2.6.2 Phase 2
+
+#### 2.6.2.1 Week 1: Scheduling and Group Meetings
+
+#### 2.6.2.2 Week 2: Group Project Status Update and Submission of Proposal Inline Citation and Reference Pages
+
+#### 2.6.2.3 Week 3: App, Web, and Database Software Requirements Specification
+
+The Software Requirements Specification can be seen in this document under
+section 2.3 Specific Requirements.
+
+#### 2.6.2.4 Week 4: Group Project Status Update
 
 Kristian,
 
@@ -884,7 +1275,9 @@ Yurii Sentsiv
 
 Paul Westman
 
-### 2.6.2 Week 6 Progress Report
+#### 2.6.2.5 Week 5: Technical Report Structure and Mechanics and Content for Abstract, Introduction, and Declaration of Authorship
+
+#### 2.6.2.6 Week 6: Group Project Status Update
 
 Dear Kristian,
 
@@ -937,7 +1330,9 @@ Team Smart Hive
 
 Roberto Loja, Paul Westman, and Yurii Sentsiv
 
-### 2.6.3 Week 9 Progress Report
+#### 2.6.2.7 Week 7: App, Web, and Database Independent Demonstration and Merging of Build Instructions Into Body of Technical Report
+
+#### 2.6.2.8 Week 8: Group Project Status Update
 
 Hi Kristian,
 
@@ -997,7 +1392,9 @@ Team Smart Hive
 
 Roberto Loja, Yurii Sentsiv, Paul Westman
 
-### 2.6.4 Week 10 Progress Report
+#### 2.6.2.9 Week 9: OACETT Basic Requirement Report Checklist
+
+#### 2.6.2.10 Week 10: Group Project Status Update
 
 Hi Kristian,
 
@@ -1046,6 +1443,16 @@ also didn’t affect the budget.
 Team Smart Hive
 
 Yurii Sentsiv, Roberto Loja, and Paul Westman
+
+#### 2.6.2.11 Week 11: Technical Report Due
+
+#### 2.6.2.12 Week 12: Group Project Status Update
+
+#### 2.6.2.13 Week 13: Spring Open House Demonstrations
+
+#### 2.6.2.14 Week 14: Group Presentations
+
+#### 2.6.2.15 Week 15: Group Video Script Due, Filming, Demonstration of Project in its Final Form
 
 \pagebreak
 
