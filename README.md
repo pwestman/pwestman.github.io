@@ -345,70 +345,99 @@ Humidity](https://github.com/pwestman/pwestman.github.io#2563-temperature-and-hu
 
 #### [2.6.1 Phase 1](https://github.com/pwestman/pwestman.github.io#261-phase-1-1)
 
-2.6.1.1 Week 1: Writing proposal
+[2.6.1.1 Week 1: Writing
+proposal](https://github.com/pwestman/pwestman.github.io#2611-week-1-writing-proposal)
 
-2.6.1.2 Week 2: Creating Project Schedule and Initial Project Team Meeting
+[2.6.1.2 Week 2: Creating Project Schedule and Initial Project Team
+Meeting](https://github.com/pwestman/pwestman.github.io#2612-week-2-creating-project-schedule-and-initial-project-team-meeting)
 
-2.6.1.3 Week 3: Creating Budget and Status Meeting
+[2.6.1.3 Week 3: Creating Budget and Status
+Meeting](https://github.com/pwestman/pwestman.github.io#2613-week-3-creating-budget-and-status-meeting)
 
-2.6.1.4 Week 4: Acquiring Components and Writing Progress Report
+[2.6.1.4 Week 4: Acquiring Components and Writing Progress
+Report](https://github.com/pwestman/pwestman.github.io#2614-week-4-acquiring-components-and-writing-progress-report)
 
-2.6.1.5 Week 5: Mechanical Assembly and Writing Progress Report
+[2.6.1.5 Week 5: Mechanical Assembly and Writing Progress
+Report](https://github.com/pwestman/pwestman.github.io#2615-week-5-mechanical-assembly-and-writing-progress-report)
 
-2.6.1.6 Week 6: PCB Fabrication (Power Up Milestone)
+[2.6.1.6 Week 6: PCB Fabrication (Power Up
+Milestone)](https://github.com/pwestman/pwestman.github.io#2616-week-6-pcb-fabrication-power-up-milestone)
 
-2.6.1.7 Week 7: Interface Wiring, Placard Design, Status Meeting
+[2.6.1.7 Week 7: Interface Wiring, Placard Design, Status
+Meeting](https://github.com/pwestman/pwestman.github.io#2617-week-7-interface-wiring-placard-design-status-meeting)
 
-2.6.1.8 Week 8: Preparing for Demonstration
+[2.6.1.8 Week 8: Preparing for
+Demonstration](https://github.com/pwestman/pwestman.github.io#2618-week-8-preparing-for-demonstration)
 
-2.6.1.9 Week 9: Writing Progress Report and Demonstrating Project
+[2.6.1.9 Week 9: Writing Progress Report and Demonstrating
+Project](https://github.com/pwestman/pwestman.github.io#2619-week-9-writing-progress-report-and-demonstrating-project)
 
-2.6.1.10 Week 10: Editing Build Video
+[2.6.1.10 Week 10: Editing Build
+Video](https://github.com/pwestman/pwestman.github.io#26110-week-10-editing-build-video)
 
-2.6.1.11 Week 11: Incorporation of Feedback From Demonstration, Writing Progress
-Report, and Status Meeting
+[2.6.1.11 Week 11: Incorporation of Feedback From Demonstration, Writing
+Progress Report, and Status
+Meeting](https://github.com/pwestman/pwestman.github.io#26111-week-11-incorporation-of-feedback-from-demonstration-writing-progress-report-and-status-meeting)
 
-2.6.1.12 Week 12: Practice Presentations
+[2.6.1.12 Week 12: Practice
+Presentations](https://github.com/pwestman/pwestman.github.io#26112-week-12-practice-presentations)
 
-2.6.1.13 Week 13: Presentations, Collaborators Present
+[2.6.1.13 Week 13: Presentations, Collaborators
+Present](https://github.com/pwestman/pwestman.github.io#26113-week-13-presentations-collaborators-present)
 
-2.6.1.14 Week 14: Project Videos and Status Meeting
+[2.6.1.14 Week 14: Project Videos and Status
+Meeting](https://github.com/pwestman/pwestman.github.io#26114-week-14-project-videos-and-status-meeting)
 
 #### [2.6.2 Phase 2](https://github.com/pwestman/pwestman.github.io#262-phase-2-1)
 
-2.6.2.1 Week 1: Scheduling and Group Meetings
+[2.6.2.1 Week 1: Scheduling and Group
+Meetings](https://github.com/pwestman/pwestman.github.io#2621-week-1-scheduling-and-group-meetings)
 
-2.6.2.2 Week 2: Group Project Status Update and Submission of Proposal Inline
-Citation and Reference Pages
+[2.6.2.2 Week 2: Group Project Status Update and Submission of Proposal Inline
+Citation and Reference
+Pages](https://github.com/pwestman/pwestman.github.io#2622-week-2-group-project-status-update-and-submission-of-proposal-inline-citation-and-reference-pages)
 
-2.6.2.3 Week 3: App, Web, and Database Software Requirements Specification
+[2.6.2.3 Week 3: App, Web, and Database Software Requirements
+Specification](https://github.com/pwestman/pwestman.github.io#2623-week-3-app-web-and-database-software-requirements-specification)
 
-2.6.2.4 Week 4: Group Project Status Update
+[2.6.2.4 Week 4: Group Project Status
+Update](https://github.com/pwestman/pwestman.github.io#2624-week-4-group-project-status-update)
 
-2.6.2.5 Week 5: Technical Report Structure and Mechanics and Content for
-Abstract, Introduction, and Declaration of Authorship
+[2.6.2.5 Week 5: Technical Report Structure and Mechanics and Content for
+Abstract, Introduction, and Declaration of
+Authorship](https://github.com/pwestman/pwestman.github.io#2625-week-5-technical-report-structure-and-mechanics-and-content-for-abstract-introduction-and-declaration-of-authorship)
 
-2.6.2.6 Week 6: Group Project Status Update
+[2.6.2.6 Week 6: Group Project Status
+Update](https://github.com/pwestman/pwestman.github.io#2626-week-6-group-project-status-update)
 
-2.6.2.7 Week 7: App, Web, and Database Independent Demonstration and Merging of
-Build Instructions Into Body of Technical Report
+[2.6.2.7 Week 7: App, Web, and Database Independent Demonstration and Merging of
+Build Instructions Into Body of Technical
+Report](https://github.com/pwestman/pwestman.github.io#2627-week-7-app-web-and-database-independent-demonstration-and-merging-of-build-instructions-into-body-of-technical-report)
 
-2.6.2.8 Week 8: Group Project Status Update
+[2.6.2.8 Week 8: Group Project Status
+Update](https://github.com/pwestman/pwestman.github.io#2628-week-8-group-project-status-update)
 
-2.6.2.9 Week 9: OACETT Basic Requirement Report Checklist
+[2.6.2.9 Week 9: OACETT Basic Requirement Report
+Checklist](https://github.com/pwestman/pwestman.github.io#2629-week-9-oacett-basic-requirement-report-checklist)
 
-2.6.2.10 Week 10: Group Project Status Update
+[2.6.2.10 Week 10: Group Project Status
+Update](https://github.com/pwestman/pwestman.github.io#26210-week-10-group-project-status-update)
 
-2.6.2.11 Week 11: Technical Report Due
+[2.6.2.11 Week 11: Technical Report
+Due](https://github.com/pwestman/pwestman.github.io#26211-week-11-technical-report-due)
 
-2.6.2.12 Week 12: Group Project Status Update
+[2.6.2.12 Week 12: Group Project Status
+Update](https://github.com/pwestman/pwestman.github.io#26212-week-12-group-project-status-update)
 
-2.6.2.13 Week 13: Spring Open House Demonstrations
+[2.6.2.13 Week 13: Spring Open House
+Demonstrations](https://github.com/pwestman/pwestman.github.io#26213-week-13-spring-open-house-demonstrations)
 
-2.6.2.14 Week 14: Group Presentations
+[2.6.2.14 Week 14: Group
+Presentations](https://github.com/pwestman/pwestman.github.io#26214-week-14-group-presentations)
 
-2.6.2.15 Week 15: Group Video Script Due, Filming, Demonstration of Project in
-its Final Form
+[2.6.2.15 Week 15: Group Video Script Due, Filming, Demonstration of Project in
+its Final
+Form](https://github.com/pwestman/pwestman.github.io#26215-week-15-group-video-script-due-filming-demonstration-of-project-in-its-final-form)
 
 ### [3. Conclusions](https://github.com/pwestman/pwestman.github.io#3-conclusions)
 
