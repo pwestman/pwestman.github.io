@@ -12,7 +12,7 @@ author: "Roberto Loja, Yurii Sentsiv, Paul Westman"
 **Declaration of Joint Authorship**
 ===================================
 
-Roberto Loja, Yuri Sentsiv, and Paul Westman, the members of team Smart Hive,
+Roberto Loja, Yurii Sentsiv, and Paul Westman, the members of team Smart Hive,
 confirm that the concepts presented in this report have resulted from original
 thinking and research. All references to previously existing work have been
 appropriately cited throughout this document, as well as comprehensively
@@ -24,11 +24,11 @@ software that aggregates and uploads all sensor data into a format usable by
 client applications. He was also responsible for the strain gauge circuit used
 to gather weight data from the hive, as well as the design of the physical
 package of the Smart Hive hardware. Finally, Roberto contributed a significant
-portion of the code base for our mobile application. Yuri Sentsiv was
+portion of the code base for our mobile application. Yurii Sentsiv was
 responsible for the interface between our remote database and our mobile
 application, as well as designing and implementing the hardware system that,
 using temperature sensors, tracks the physical location of the bee cluster
-inside a hive. Further, Yuri was integral to the user interface design and
+inside a hive. Further, Yurii was integral to the user interface design and
 usability testing of the mobile application, as well as the integration of the
 GPS system of target mobile devices. Paul Westman was responsible for developing
 the hardware and software for tracking a hive’s ingress and egress, thus
@@ -511,10 +511,19 @@ devices.
 ### 2.1.1 Problem To Be Solved
 
 This project aims to solve the problem of not being able to see inside a beehive
-to determine its overall health. By incorporating sensors into a beehive,
-beekeepers are able to get a deeper understanding of what is going on inside the
-hive and if intervention is necessary by the beekeeper in order to maintain the
-hive’s functionality.
+to determine its overall health. Beekeepers usually rely on visual inspection to
+determine the overall health of the hive. However, this is not always the best
+way to monitor the hive because you cannot constantly be observing the hive to
+see if anything is going wrong. This makes it challenging for beekeepers to
+respond and react quickly to adverse changes in the hive. With Smart Hive,
+sensors are embedded into the structure of the hive to provide real time and
+up-to-date data for beekeepers to get a sense of the activities inside the hive.
+This includes the number of bees in the hive at any moment, the climate of the
+hive including where the bees are clustered inside, as well as the total weight,
+which can help with determining the population and honey stores. By
+incorporating sensors into a beehive, beekeepers are able to get a deeper
+understanding of what is going on inside the hive and if intervention is
+necessary by the beekeeper in order to maintain the hive’s functionality.
 
 ### 2.1.2 Intended Users
 
@@ -525,7 +534,17 @@ closely monitor what is going on inside the hives that they are responsible for.
 
 Smart Hive includes a Raspberry Pi 3 Model B, as well as DHT11 sensors, Infrared
 Optical Interrupter sensors, and a wheat stone bridge for measuring the
-temperature, humidity, population, and weight of the hives.
+temperature, humidity, population, and weight of the hives. The sensors are
+attached to the Raspberry Pi 3 on specific GPIO pins that are programmed to read
+the input and upload this information to a MongoDB database. The data stored in
+the MongoDB is sent to a Firebase database where it is organized based on the
+user ID and the hive ID. When the user logs into their Google account on the
+Smart Hive application, the hives and their data are displayed to the user. This
+data is updated in real time as the MongoDB on the Raspberry Pi forwards data to
+Firebase. This means that the user can see and track changes in the data in real
+time and have the latest data available when they log in to their account. This
+allows the user to make decisions to ensure the health of the hive at any point
+according to the current activity of the hive.
 
 2.2 System Description
 ----------------------
@@ -534,14 +553,28 @@ temperature, humidity, population, and weight of the hives.
 
 This product is open source, with the hopes that users will modify and
 distribute their own customized versions for the advancement of beekeeping
-metrics.
+metrics. We hope that it will find it’s way to be used in the real hives, where
+user might add additional features and measurement reading, that will enhance
+the productivity of the product even more.
 
 ### 2.2.2 Design Constraints
 
-Smart Hive is meant to operate year round to gather metrics on the hive’s
+Smart Hive is meant to operate year-round to gather metrics on the hive’s
 health. This allows beekeepers to determine if human intervention is required
 for the survival of the hive. However, the product is designed so that it will
-not impact the daily movement of the bees.
+not impact the daily movement of the bees. When the product will be installed on
+the hive, insulation for the electronics should be added, which will ensure that
+no weather conditions may influence the readings. One of the constrains could be
+internet connection, if the hives are meant to be placed somewhere in the remote
+destination. But there are quite a few solutions, such as 3G modules, that will
+supply the Raspberry Pi 3 with the internet access. Also, another constrain
+could be power supply, again in the case of remote destination, but the
+Raspberry PI 3 could be supplied with power using the Solar panels, if there is
+no possibility to power them up from the outlet. At this point, Smart Hive has
+not been designed to work in all weather conditions. The joints are not sealed,
+meaning that all electrical components are vulnerable to water from rain or
+snow. For this reason, it is not recommended to set up Smart Hive outside when
+there is a potential for precipitation.
 
 ### 2.2.3 Product Functions
 
@@ -549,10 +582,14 @@ The sensors attached to the Raspberry Pi 3 collect data from the various sensors
 to provide a deeper understanding of what is going on inside the hive. The
 metrics that this product measures are temperature, humidity, population, and
 weight. The temperature and humidity give the beekeeper an idea of the climate
-that their hives are currently in. The population lets the beekeeper know if
-bees are dying and allows them to respond accordingly. The weight gives an idea
-of how much honey is stored in the hive at any time and if it will be sufficient
-to get the colony through the winter.
+that their hives are currently in. Also, the temperature readings are used to
+located the bee cluster during the winter. As there are 4 sensors on different
+side of the hive, the temperature difference will give needed data to find the
+cluster. The population lets the beekeeper know if bees are dying or migrating
+and allows them to respond accordingly. The weight gives an idea of how much
+honey is stored in the hive at any time and if it will be sufficient to get the
+colony through the winter. Also to get idea when there is enough honey to be
+collected.
 
 ### 2.2.4 User Characteristics
 
@@ -610,6 +647,8 @@ colors, indicating if there are any possible problems. Yurii will be responsible
 for testing the mobile application once it is integrated with the database. He
 will also be responsible for deployment and subsequent version control the final
 version of the application (for example managing the Google Play Store page).
+The app can be seen on the Google Play Store and is available for download from
+[https://play.google.com/store/apps/details?id=nottoobee.toobee.smarthive&hl=en](https://play.google.com/store/apps/details?id=nottoobee.toobee.smarthive&hl=en).
 
 ### 2.3.4 Hardware
 
@@ -656,13 +695,22 @@ Raspberry Pi so the system can constantly retrieve and update the readings.
 
 The Smart Hive mobile application uses Google authentication to verify the user
 before they are able to access any of the hives data. If the user does not have
-a Google account, one can be created from the main page of the application.
+a Google account, one can be created from the main page of the application. As
+of now, Google is the only authentication used to provide access to the app as
+the user is assigned a key based on their Google account. Google is a very
+secure authentication method as it provides a number of security characteristics
+such as two step verification and notifications to email and SMS if your account
+is being accessed from an unknown device.
 
 ### 2.4.2 Safety
 
 Beekeepers should always wear industry standard protective equipment when
 physically interacting with any active bee hives. This is necessary for the
-initial setup of the hardware on the beehive.
+initial setup of the hardware on the beehive. This product has been designed to
+work outdoors, however, it has not been weather-proofed in the sense that water
+can easily seep through to the electronics inside the housing. For this reason,
+it is not recommended to test this product during rainy weather as the
+electrical components will become damaged and unusable.
 
 2.5 Build Instructions
 ----------------------
@@ -832,8 +880,13 @@ the two exposed sections together and cover in liquid electrical tape. Do the
 same thing for ground from pin 6 on the Broadcom Development Platform to each
 ground pin of the sensors.
 
+Drill a 1 inch hole in the centre of the 4 walls on the scale to allow the
+cables from the DHT11 sensors to run to the Broadcom Development Platform.
 Finally, attach the DHT11 sensor on each side of the hive’s housing to the pins
-as outlined in the table below (when facing the entrance):
+as outlined in the table below (when facing the entrance), running each cable
+through the hole in the same side. By running the cables through their own
+separate holes, this ensures there is minimal interference between other cables
+and the strain gauges. It also provides better cable management.
 
 | **Sensor** | **Broadcom Development Platform Pin (Board)** |
 |------------|-----------------------------------------------|
@@ -851,9 +904,9 @@ the Broadcom Development Platform.
 
 ### 2.5.5 Software Setup and Power Up
 
-From the project [repository](https://github.com/pwestman/pwestman.github.io),
-download the latest Raspberry Pi Smart Hive image. Next, follow the instructions
-located
+Download the latest Raspberry Pi Smart Hive image from
+[https://firebasestorage.googleapis.com/v0/b/smarthive-229a5.appspot.com/o/Humber%20Certificate%20(For%20HumberSecure).cer?alt=media&token=d3f6e4b3-f7e3-4655-b8d2-fbd3bc46f004](https://firebasestorage.googleapis.com/v0/b/smarthive-229a5.appspot.com/o/Humber%20Certificate%20(For%20HumberSecure).cer?alt=media&token=d3f6e4b3-f7e3-4655-b8d2-fbd3bc46f004)
+which is hosted on Firebase. Next, follow the instructions located
 [here](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)
 to load the image onto your SD card. At this point, you will run our setup
 script which will ask you for the WiFi connection credentials such as SSID,
@@ -866,13 +919,15 @@ automatically begin taking sensor readings once every hour.
 The image you downloaded contains all of the software required to run the
 non-mobile component of Smart Hive. When your Smart Hive first boots up, it will
 use the WiFi credentials you supplied to connect itself to your network and the
-Internet. Next, download and install the Smart Hive Android app from the Google
-Play Store and rate it 5 stars. On your Android phone, run the Smart Hive app,
-which will prompt you to sign in to Google. If this is your first hive, the
-Android app will then request that you scan your hive’s unique identifier QR
-code. Once this is done, Broadcom Development Platform will connect to Smart
-Hive’s remote database and upload any sensor readings it has already gathered.
-These will now be visible from the Android app and your Smart Hive is setup.
+Internet. Next, download and install the Smart Hive Android app from the
+following link:
+[https://play.google.com/store/apps/details?id=nottoobee.toobee.smarthive&hl=en](https://play.google.com/store/apps/details?id=nottoobee.toobee.smarthive&hl=en)
+and rate it 5 stars. On your Android phone, run the Smart Hive app, which will
+prompt you to sign in to Google. If this is your first hive, the Android app
+will then request that you scan your hive’s unique identifier QR code. Once this
+is done, Broadcom Development Platform will connect to Smart Hive’s remote
+database and upload any sensor readings it has already gathered. These will now
+be visible from the Android app and your Smart Hive is setup.
 
 ### 2.5.6 Unit Testing
 
@@ -969,6 +1024,11 @@ Temperature and Humidity:
 
 Weight:
 [https://robertoloja.github.io/build/index.html\#Materials](https://robertoloja.github.io/build/index.html#Materials)
+
+The final budget for the integration of Smart Hive can be seen in the [Build
+Instructions](https://github.com/pwestman/pwestman.github.io#252-bill-of-materials-and-budget),
+where all of the costs have been integrated to eliminate items that all three
+groups members bought for the Fall semester in CENG 317.
 
 #### 2.6.1.4 Week 4: Acquiring Components and Writing Progress Report
 
