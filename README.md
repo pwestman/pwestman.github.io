@@ -1069,11 +1069,11 @@ the local retailer.
 
 **Progress Report: Distribution of Work Among Team Members (CENG 319)**
 
-**Team**: tooBee \| !tooBee
+Team: tooBee \| !tooBee
 
-**Team** Members: Paul Westman, Roberto Loja, Yurii Sentsiv
+Team Members: Paul Westman, Roberto Loja, Yurii Sentsiv
 
-**Project**: Smart Hive
+Project: Smart Hive
 
 We will be dividing the work for our application based on the Model View
 Controller pattern. With 3 people in our group, we will each focus on one
