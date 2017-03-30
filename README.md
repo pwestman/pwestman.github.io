@@ -947,11 +947,28 @@ sensor.
 Before we began integration of our 3 separate projects, we designed and built
 the hardware that would be the basis for Smart Hive. The population counter,
 hive scale, and temperature and humidity tracking were proposed as separate
-projects for the fall semester.
+projects for the fall semester. The approved proposal can be seen earlier in
+this report.
 
 #### 2.6.1.2 Week 2: Creating Project Schedule and Initial Project Team Meeting
 
+The project schedule can be viewed from
+[https://pwestman.github.io/\#Section_7](https://pwestman.github.io/#Section_7)
+by downloading the Microsoft Project file under Week 3.
+
 #### 2.6.1.3 Week 3: Creating Budget and Status Meeting
+
+The 3 separate budgets for the hardware components of Smart Hive can be viewed
+at the following links:
+
+Population counter:
+[https://pwestman.github.io/\#Section_8](https://pwestman.github.io/#Section_8)
+
+Temperature and Humidity:
+[https://n01060890.github.io/\#Section_4](https://n01060890.github.io/#Section_4)
+
+Weight:
+[https://robertoloja.github.io/build/index.html\#Materials](https://robertoloja.github.io/build/index.html#Materials)
 
 #### 2.6.1.4 Week 4: Acquiring Components and Writing Progress Report
 
@@ -1077,9 +1094,23 @@ designing the sensor circuit for measuring the hive's weight.
 
 #### 2.6.1.6 Week 6: PCB Fabrication (Power Up Milestone)
 
+We initially designed a PCB when first experimenting with different sensors on
+the Broadcom Development Platform. However, we didn’t end up using the PCBs that
+we printed. A picture of the PCB can be seen
+[here](https://pwestman.github.io/#Section_10).
+
 #### 2.6.1.7 Week 7: Interface Wiring, Placard Design, Status Meeting
 
+The placard for Smart Hive for the Fall Open House at Humber College can be seen
+at
+[https://pwestman.github.io/\#Section_12](https://pwestman.github.io/#Section_12)
+
 #### 2.6.1.8 Week 8: Preparing for Demonstration
+
+Preparing for the Open House presentation involved fine tuning our software and
+modifying the prototypes that we had built to demonstrate individual
+functionality of the population counter, temperature and humidity sensing, and
+weight sensing.
 
 #### 2.6.1.9 Week 9: Writing Progress Report and Demonstrating Project
 
@@ -1165,6 +1196,19 @@ of resolution from the ADC.
 
 #### 2.6.1.10 Week 10: Editing Build Video
 
+The population counter, temperature and humidity, and hive scale were built
+separately and thus had individual build videos. They can be viewed at the links
+below:
+
+Population:
+[https://pwestman.github.io/\#Section_13](https://pwestman.github.io/#Section_13)
+
+Temperature and humidity:
+[https://n01060890.github.io/\#Section_9](https://n01060890.github.io/#Section_9)
+
+Scale:
+[https://robertoloja.github.io/index.html](https://robertoloja.github.io/index.html)
+
 #### 2.6.1.11 Week 11: Incorporation of Feedback From Demonstration, Writing Progress Report, and Status Meeting
 
 **Progress Report: Paul Westman**
@@ -1245,15 +1289,40 @@ Finally, a housing has been designed to hold the Raspberry Pi and strain gauges.
 
 #### 2.6.1.12 Week 12: Practice Presentations
 
+This week was spent putting together and practicing for the in class
+presentations.
+
 #### 2.6.1.13 Week 13: Presentations, Collaborators Present
 
+The presentation slides can be viewed from the link below:
+
+Population:
+[https://pwestman.github.io/\#Section_17](https://pwestman.github.io/#Section_17)
+
+Temperature and Humidity:
+[https://n01060890.github.io/\#Section_13](https://n01060890.github.io/#Section_13)
+
+Scale:
+[https://robertoloja.github.io/index.html](https://robertoloja.github.io/index.html)
+
 #### 2.6.1.14 Week 14: Project Videos and Status Meeting
+
+The project videos were shot in the Prototype Lab at Humber College. We were not
+given access to these videos. If you wish to view them, please get in contact
+with the Applied Technology Department at Humber College.
 
 ### 2.6.2 Phase 2
 
 #### 2.6.2.1 Week 1: Scheduling and Group Meetings
 
+This week involved conducting meetings and beginning to prepare for the
+integration process of the population counter, temperature and humidity sensing,
+and scale into the final version of Smart Hive.
+
 #### 2.6.2.2 Week 2: Group Project Status Update and Submission of Proposal Inline Citation and Reference Pages
+
+The proposal for Smart Hive can be seen earlier in this report under the
+Approved Proposal section.
 
 #### 2.6.2.3 Week 3: App, Web, and Database Software Requirements Specification
 
@@ -1305,6 +1374,12 @@ Yurii Sentsiv
 Paul Westman
 
 #### 2.6.2.5 Week 5: Technical Report Structure and Mechanics and Content for Abstract, Introduction, and Declaration of Authorship
+
+This week involved writing the
+[Abstract](https://github.com/pwestman/pwestman.github.io#abstract),
+[Introduction](https://github.com/pwestman/pwestman.github.io#1-product-introduction-1),
+and [Declaration of Joint
+Authorship](https://github.com/pwestman/pwestman.github.io#declaration-of-joint-authorship).
 
 #### 2.6.2.6 Week 6: Group Project Status Update
 
@@ -1422,6 +1497,8 @@ Team Smart Hive
 Roberto Loja, Yurii Sentsiv, Paul Westman
 
 #### 2.6.2.9 Week 9: OACETT Basic Requirement Report Checklist
+
+We went through the OACETT Technical Report Checklist in preparation
 
 #### 2.6.2.10 Week 10: Group Project Status Update
 
