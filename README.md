@@ -1067,6 +1067,38 @@ sensor that will satisfy my needs is Temperature & Humidity Sensor DHT11. In
 order to get more accurate measurement, I’ve bought 5 pieces of this sensor from
 the local retailer.
 
+**Progress Report: Distribution of Work Among Team Members (CENG 319)**
+
+**Team**: tooBee \| !tooBee
+
+**Team** Members: Paul Westman, Roberto Loja, Yurii Sentsiv
+
+**Project**: Smart Hive
+
+We will be dividing the work for our application based on the Model View
+Controller pattern. With 3 people in our group, we will each focus on one
+aspect.
+
+Paul Westman: Scrum Master. In addition, Paul will be responsible for the
+tracking the population of the bees. This will be done by taking the raw data
+from IR sensors at the entrance of the hive, storing it in a database (Model),
+performing the main logic (Controller) and presenting it to the user in a
+pleasing way.
+
+Roberto Loja: Roberto will be responsible for tracking the weight of the hive.
+He will store the weight change of the hive in the database (Model), perform the
+main logic on this data (Controller),  and present this data to the user in the
+user interface.
+
+Yurii Sentsiv: Yurii will be responsible for tracking the humidity and
+temperature data from the hive as well as detecting the location of the cluster
+of bees within the hive based on density. He will store this data in the
+database, perform the main logic on this data, and present to the user in the
+user interface.
+
+Although the roles have been broken down, we will all work together to put
+together the final application and many of the roles will overlap.
+
 #### 2.6.1.5 Week 5: Mechanical Assembly and Writing Progress Report
 
 **Progress Report: Yurii Sentsiv**
@@ -1157,7 +1189,7 @@ designing the sensor circuit for measuring the hive's weight.
 We initially designed a PCB when first experimenting with different sensors on
 the Broadcom Development Platform. However, we didn’t end up using the PCBs that
 we printed. A picture of the PCB can be seen
-[here](https://pwestman.github.io/#Section_10).
+at[https://pwestman.github.io/\#Section_10](https://pwestman.github.io/#Section_10).
 
 #### 2.6.1.7 Week 7: Interface Wiring, Placard Design, Status Meeting
 
@@ -1269,6 +1301,10 @@ Temperature and humidity:
 Scale:
 [https://robertoloja.github.io/index.html](https://robertoloja.github.io/index.html)
 
+The design of the individual parts were modified heavily during integration in
+order to accommodate all parts. Therefore, the final versions in the build
+videos no longer accurately reflect the final design from the integration.
+
 #### 2.6.1.11 Week 11: Incorporation of Feedback From Demonstration, Writing Progress Report, and Status Meeting
 
 **Progress Report: Paul Westman**
@@ -1346,6 +1382,35 @@ simply be plugged into the Raspberry Pi's GPIO bus.
 Finally, a housing has been designed to hold the Raspberry Pi and strain gauges.
 
 ![The Assembled Acrylic Scale Housing](README.images/ScaleHousing.jpg)
+
+**Progress Report - Group Assessment Software Project (CENG 319)**
+
+Team Name**:** tooBee\|!tooBee
+
+Project Name: Smart Hive
+
+The work of our group was evenly split for the most part leading up to the final
+submission. We all focused on different functionalities of the application. This
+is reflected on our GitHub page and can be seen on the commits.
+
+Roberto handled setting up the database on Firebase and making the connection
+with the app, as well as designing the structure of our GitHub page. He also
+implemented the maps associated with the hives, getting it to show the location
+based on the longitude and latitude coordinates.
+
+Yurii was responsible for querying the database and displaying the info to the
+screens. He also took care of getting the location of the phone and storing it
+in a new hive. Yurii also added features to the hive info page such as deleting
+a hive and refreshing the location of any hive.
+
+I was responsible for general layouts, unit testing, adding more detailed
+functionalities like French compatibility, setting up the toolbars, implementing
+the hamburger menu, different landscapes, and design documents. As the scrum
+master I kept track of the big picture in terms of what still needed to be
+completed and ensuring that we met our deadlines on time.
+
+The distribution of work was split fairly evenly, with all group members willing
+and available to work on the app.  
 
 #### 2.6.1.12 Week 12: Practice Presentations
 
