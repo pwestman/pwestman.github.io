@@ -439,11 +439,11 @@ Presentations](https://github.com/pwestman/pwestman.github.io#26214-week-14-grou
 its Final
 Form](https://github.com/pwestman/pwestman.github.io#26215-week-15-group-video-script-due-filming-demonstration-of-project-in-its-final-form)
 
-### [3. Conclusions](https://github.com/pwestman/pwestman.github.io#3-conclusions)
+### [3. Conclusions](https://github.com/pwestman/pwestman.github.io#3-conclusions-1)
 
-### [4. Recommendations](https://github.com/pwestman/pwestman.github.io#4-recommendations)
+### [4. Recommendations](https://github.com/pwestman/pwestman.github.io#4-recommendations-1)
 
-### [5. References](https://github.com/pwestman/pwestman.github.io#6-references)
+### [5. References](https://github.com/pwestman/pwestman.github.io#5-references-1)
 
 \pagebreak
 
