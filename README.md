@@ -1498,7 +1498,10 @@ Roberto Loja, Yurii Sentsiv, Paul Westman
 
 #### 2.6.2.9 Week 9: OACETT Basic Requirement Report Checklist
 
-We went through the OACETT Technical Report Checklist in preparation
+We went through the OACETT Technical Report Checklist in preparation for the
+final technical report. The checklist can be viewed at
+[https://www.oacett.org/downloads/get_certified/technology_report/Technology_Report_Guidelines.pdf](https://www.oacett.org/downloads/get_certified/technology_report/Technology_Report_Guidelines.pdf)
+on the last page of the document.
 
 #### 2.6.2.10 Week 10: Group Project Status Update
 
@@ -1552,13 +1555,28 @@ Yurii Sentsiv, Roberto Loja, and Paul Westman
 
 #### 2.6.2.11 Week 11: Technical Report Due
 
+The final version of this report is due.
+
 #### 2.6.2.12 Week 12: Group Project Status Update
+
+Refer to [https://pwestman.github.io/](https://pwestman.github.io/) for future
+status updates.
 
 #### 2.6.2.13 Week 13: Spring Open House Demonstrations
 
+The Spring Open House demonstration will take place at Humber College on April
+8, 2017.
+
 #### 2.6.2.14 Week 14: Group Presentations
 
+The group presentation will take place during week 14 of the Winter 2017
+semester at Humber College during class time for CENG 355.
+
 #### 2.6.2.15 Week 15: Group Video Script Due, Filming, Demonstration of Project in its Final Form
+
+Refer to [https://pwestman.github.io/](https://pwestman.github.io/) for future
+updates on the script, filming, and demonstration of the final version of Smart
+Hive.
 
 \pagebreak
 
