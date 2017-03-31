@@ -653,7 +653,7 @@ for testing the mobile application once it is integrated with the database. He
 will also be responsible for deployment and subsequent version control the final
 version of the application (for example managing the Google Play Store page).
 The app can be seen on the Google Play Store and is available for download from
-[https://play.google.com/store/apps/details?id=nottoobee.toobee.smarthive&hl=en](https://play.google.com/store/apps/details?id=nottoobee.toobee.smarthive&hl=en).
+<https://play.google.com/store/apps/details?id=nottoobee.toobee.smarthive&hl=en>.
 
 ### 2.3.4 Hardware
 
@@ -910,7 +910,7 @@ the Broadcom Development Platform.
 ### 2.5.5 Software Setup and Power Up
 
 Download the latest Raspberry Pi Smart Hive image from
-[https://firebasestorage.googleapis.com/v0/b/smarthive-229a5.appspot.com/o/Humber%20Certificate%20(For%20HumberSecure).cer?alt=media&token=d3f6e4b3-f7e3-4655-b8d2-fbd3bc46f004](https://firebasestorage.googleapis.com/v0/b/smarthive-229a5.appspot.com/o/Humber%20Certificate%20(For%20HumberSecure).cer?alt=media&token=d3f6e4b3-f7e3-4655-b8d2-fbd3bc46f004)
+<https://firebasestorage.googleapis.com/v0/b/smarthive-229a5.appspot.com/o/Humber%20Certificate%20(For%20HumberSecure).cer?alt=media&token=d3f6e4b3-f7e3-4655-b8d2-fbd3bc46f004>
 which is hosted on Firebase. Next, follow the instructions located
 [here](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)
 to load the image onto your SD card. At this point, you will run our setup
@@ -926,7 +926,7 @@ non-mobile component of Smart Hive. When your Smart Hive first boots up, it will
 use the WiFi credentials you supplied to connect itself to your network and the
 Internet. Next, download and install the Smart Hive Android app from the
 following link:
-[https://play.google.com/store/apps/details?id=nottoobee.toobee.smarthive&hl=en](https://play.google.com/store/apps/details?id=nottoobee.toobee.smarthive&hl=en)
+<https://play.google.com/store/apps/details?id=nottoobee.toobee.smarthive&hl=en>
 and rate it 5 stars. On your Android phone, run the Smart Hive app, which will
 prompt you to sign in to Google. If this is your first hive, the Android app
 will then request that you scan your hive’s unique identifier QR code. Once this
@@ -1012,8 +1012,7 @@ this report.
 
 #### 2.6.1.2 Week 2: Creating Project Schedule and Initial Project Team Meeting
 
-The project schedule can be viewed from
-[https://pwestman.github.io/\#Section_7](https://pwestman.github.io/#Section_7)
+The project schedule can be viewed from <https://pwestman.github.io/#Section_7>
 by downloading the Microsoft Project file under Week 3.
 
 #### 2.6.1.3 Week 3: Creating Budget and Status Meeting
@@ -1021,14 +1020,11 @@ by downloading the Microsoft Project file under Week 3.
 The 3 separate budgets for the hardware components of Smart Hive can be viewed
 at the following links:
 
-Population counter:
-[https://pwestman.github.io/\#Section_8](https://pwestman.github.io/#Section_8)
+Population counter: <https://pwestman.github.io/#Section_8>
 
-Temperature and Humidity:
-[https://n01060890.github.io/\#Section_4](https://n01060890.github.io/#Section_4)
+Temperature and Humidity: <https://n01060890.github.io/#Section_4>
 
-Weight:
-[https://robertoloja.github.io/build/index.html\#Materials](https://robertoloja.github.io/build/index.html#Materials)
+Weight: <https://robertoloja.github.io/build/index.html#Materials>
 
 The final budget for the integration of Smart Hive can be seen in the [Build
 Instructions](https://github.com/pwestman/pwestman.github.io#252-bill-of-materials-and-budget),
@@ -1194,13 +1190,12 @@ designing the sensor circuit for measuring the hive's weight.
 We initially designed a PCB when first experimenting with different sensors on
 the Broadcom Development Platform. However, we didn’t end up using the PCBs that
 we printed. A picture of the PCB can be seen
-at[https://pwestman.github.io/\#Section_10](https://pwestman.github.io/#Section_10).
+at<https://pwestman.github.io/#Section_10>.
 
 #### 2.6.1.7 Week 7: Interface Wiring, Placard Design, Status Meeting
 
 The placard for Smart Hive for the Fall Open House at Humber College can be seen
-at
-[https://pwestman.github.io/\#Section_12](https://pwestman.github.io/#Section_12)
+at <https://pwestman.github.io/#Section_12>
 
 #### 2.6.1.8 Week 8: Preparing for Demonstration
 
@@ -1297,14 +1292,11 @@ The population counter, temperature and humidity, and hive scale were built
 separately and thus had individual build videos. They can be viewed at the links
 below:
 
-Population:
-[https://pwestman.github.io/\#Section_13](https://pwestman.github.io/#Section_13)
+Population: <https://pwestman.github.io/#Section_13>
 
-Temperature and humidity:
-[https://n01060890.github.io/\#Section_9](https://n01060890.github.io/#Section_9)
+Temperature and humidity: <https://n01060890.github.io/#Section_9>
 
-Scale:
-[https://robertoloja.github.io/index.html](https://robertoloja.github.io/index.html)
+Scale: <https://robertoloja.github.io/index.html>
 
 The design of the individual parts were modified heavily during integration in
 order to accommodate all parts. Therefore, the final versions in the build
@@ -1426,14 +1418,11 @@ presentations.
 
 The presentation slides can be viewed from the link below:
 
-Population:
-[https://pwestman.github.io/\#Section_17](https://pwestman.github.io/#Section_17)
+Population: <https://pwestman.github.io/#Section_17>
 
-Temperature and Humidity:
-[https://n01060890.github.io/\#Section_13](https://n01060890.github.io/#Section_13)
+Temperature and Humidity: <https://n01060890.github.io/#Section_13>
 
-Scale:
-[https://robertoloja.github.io/index.html](https://robertoloja.github.io/index.html)
+Scale: <https://robertoloja.github.io/index.html>
 
 #### 2.6.1.14 Week 14: Project Videos and Status Meeting
 
@@ -1566,6 +1555,10 @@ Roberto Loja, Paul Westman, and Yurii Sentsiv
 
 #### 2.6.2.7 Week 7: App, Web, and Database Independent Demonstration and Merging of Build Instructions Into Body of Technical Report
 
+The mobile app, web data visualization, and the Firebase database were
+demonstrated during this week. Also, the build instructions were merged into
+this technical report, which can be seen above.
+
 #### 2.6.2.8 Week 8: Group Project Status Update
 
 Hi Kristian,
@@ -1630,7 +1623,7 @@ Roberto Loja, Yurii Sentsiv, Paul Westman
 
 We went through the OACETT Technical Report Checklist in preparation for the
 final technical report. The checklist can be viewed at
-[https://www.oacett.org/downloads/get_certified/technology_report/Technology_Report_Guidelines.pdf](https://www.oacett.org/downloads/get_certified/technology_report/Technology_Report_Guidelines.pdf)
+<https://www.oacett.org/downloads/get_certified/technology_report/Technology_Report_Guidelines.pdf>
 on the last page of the document.
 
 #### 2.6.2.10 Week 10: Group Project Status Update
@@ -1689,8 +1682,7 @@ The final version of this report is due.
 
 #### 2.6.2.12 Week 12: Group Project Status Update
 
-Refer to [https://pwestman.github.io/](https://pwestman.github.io/) for future
-status updates.
+Refer to <https://pwestman.github.io/> for future status updates.
 
 #### 2.6.2.13 Week 13: Spring Open House Demonstrations
 
@@ -1704,9 +1696,8 @@ semester at Humber College during class time for CENG 355.
 
 #### 2.6.2.15 Week 15: Group Video Script Due, Filming, Demonstration of Project in its Final Form
 
-Refer to [https://pwestman.github.io/](https://pwestman.github.io/) for future
-updates on the script, filming, and demonstration of the final version of Smart
-Hive.
+Refer to <https://pwestman.github.io/> for future updates on the script,
+filming, and demonstration of the final version of Smart Hive.
 
 \pagebreak
 
