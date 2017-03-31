@@ -936,7 +936,7 @@ be visible from the Android app and your Smart Hive is setup.
 
 ### 2.5.6 Unit Testing
 
-#### 2.5.6.1 Strain Gauges
+### 2.5.6.1 Strain Gauges
 
 Likely due to its high gain, the strain gauge circuit evinces a degree of
 eletromagnetic interference. An ideal solution might be to seal the circuit
@@ -945,7 +945,7 @@ software. To this end, the python script responsible for attaining sensor
 readings takes one reading every 10 milliseconds and displays the average of
 every 10 consecutive readings.
 
-#### 2.5.6.2 Population Counting
+### 2.5.6.2 Population Counting
 
 Since this project provides complete build instructions, unit testing should not
 be required for the IR sensors because we have done the unit testing to get the
@@ -979,7 +979,7 @@ Testing one sensor:
 You can replace the GPIO.setup and GPIO.input functions with any pin you wish to
 test. This will test if that one particular pin is working.
 
-#### 2.5.6.3 Temperature and Humidity
+### 2.5.6.3 Temperature and Humidity
 
 For the unit testing I used my original program with reading temperature and
 humidity, but instead of displaying only the avarage result I display all the
@@ -1002,7 +1002,7 @@ sensor.
 
 ### 2.6.1 Phase 1
 
-#### 2.6.1.1 Week 1: Writing proposal
+### 2.6.1.1 Week 1: Writing proposal
 
 Before we began integration of our 3 separate projects, we designed and built
 the hardware that would be the basis for Smart Hive. The population counter,
@@ -1010,12 +1010,12 @@ hive scale, and temperature and humidity tracking were proposed as separate
 projects for the fall semester. The approved proposal can be seen earlier in
 this report.
 
-#### 2.6.1.2 Week 2: Creating Project Schedule and Initial Project Team Meeting
+### 2.6.1.2 Week 2: Creating Project Schedule and Initial Project Team Meeting
 
 The project schedule can be viewed from <https://pwestman.github.io/#Section_7>
 by downloading the Microsoft Project file under Week 3.
 
-#### 2.6.1.3 Week 3: Creating Budget and Status Meeting
+### 2.6.1.3 Week 3: Creating Budget and Status Meeting
 
 The 3 separate budgets for the hardware components of Smart Hive can be viewed
 at the following links:
@@ -1031,7 +1031,7 @@ Instructions](https://github.com/pwestman/pwestman.github.io#252-bill-of-materia
 where all of the costs have been integrated to eliminate items that all three
 groups members bought for the Fall semester in CENG 317.
 
-#### 2.6.1.4 Week 4: Acquiring Components and Writing Progress Report
+### 2.6.1.4 Week 4: Acquiring Components and Writing Progress Report
 
 **Progress Report: Paul Westman**
 
@@ -1100,7 +1100,7 @@ user interface.
 Although the roles have been broken down, we will all work together to put
 together the final application and many of the roles will overlap.
 
-#### 2.6.1.5 Week 5: Mechanical Assembly and Writing Progress Report
+### 2.6.1.5 Week 5: Mechanical Assembly and Writing Progress Report
 
 **Progress Report: Yurii Sentsiv**
 
@@ -1185,26 +1185,26 @@ the hive, then use their readings to triangulate the cluster's position.
 Based on a mutual assessment of our relative strengths, I have been tasked with
 designing the sensor circuit for measuring the hive's weight.
 
-#### 2.6.1.6 Week 6: PCB Fabrication (Power Up Milestone)
+### 2.6.1.6 Week 6: PCB Fabrication (Power Up Milestone)
 
 We initially designed a PCB when first experimenting with different sensors on
 the Broadcom Development Platform. However, we didn’t end up using the PCBs that
 we printed. A picture of the PCB can be seen
 at<https://pwestman.github.io/#Section_10>.
 
-#### 2.6.1.7 Week 7: Interface Wiring, Placard Design, Status Meeting
+### 2.6.1.7 Week 7: Interface Wiring, Placard Design, Status Meeting
 
 The placard for Smart Hive for the Fall Open House at Humber College can be seen
 at <https://pwestman.github.io/#Section_12>
 
-#### 2.6.1.8 Week 8: Preparing for Demonstration
+### 2.6.1.8 Week 8: Preparing for Demonstration
 
 Preparing for the Open House presentation involved fine tuning our software and
 modifying the prototypes that we had built to demonstrate individual
 functionality of the population counter, temperature and humidity sensing, and
 weight sensing.
 
-#### 2.6.1.9 Week 9: Writing Progress Report and Demonstrating Project
+### 2.6.1.9 Week 9: Writing Progress Report and Demonstrating Project
 
 **Progress Report: Paul Westman**
 
@@ -1286,7 +1286,7 @@ Finally, then, I decided to use a purpose built Instrumentation Amplifier,
 namely the INA125P. This achieved the desired result of using the full 10 bits
 of resolution from the ADC.
 
-#### 2.6.1.10 Week 10: Editing Build Video
+### 2.6.1.10 Week 10: Editing Build Video
 
 The population counter, temperature and humidity, and hive scale were built
 separately and thus had individual build videos. They can be viewed at the links
@@ -1302,7 +1302,7 @@ The design of the individual parts were modified heavily during integration in
 order to accommodate all parts. Therefore, the final versions in the build
 videos no longer accurately reflect the final design from the integration.
 
-#### 2.6.1.11 Week 11: Incorporation of Feedback From Demonstration, Writing Progress Report, and Status Meeting
+### 2.6.1.11 Week 11: Incorporation of Feedback From Demonstration, Writing Progress Report, and Status Meeting
 
 **Progress Report: Paul Westman**
 
@@ -1409,12 +1409,12 @@ completed and ensuring that we met our deadlines on time.
 The distribution of work was split fairly evenly, with all group members willing
 and available to work on the app.  
 
-#### 2.6.1.12 Week 12: Practice Presentations
+### 2.6.1.12 Week 12: Practice Presentations
 
 This week was spent putting together and practicing for the in class
 presentations.
 
-#### 2.6.1.13 Week 13: Presentations, Collaborators Present
+### 2.6.1.13 Week 13: Presentations, Collaborators Present
 
 The presentation slides can be viewed from the link below:
 
@@ -1424,7 +1424,7 @@ Temperature and Humidity: <https://n01060890.github.io/#Section_13>
 
 Scale: <https://robertoloja.github.io/index.html>
 
-#### 2.6.1.14 Week 14: Project Videos and Status Meeting
+### 2.6.1.14 Week 14: Project Videos and Status Meeting
 
 The project videos were shot in the Prototype Lab at Humber College. We were not
 given access to these videos. If you wish to view them, please get in contact
@@ -1432,23 +1432,23 @@ with the Applied Technology Department at Humber College.
 
 ### 2.6.2 Phase 2
 
-#### 2.6.2.1 Week 1: Scheduling and Group Meetings
+### 2.6.2.1 Week 1: Scheduling and Group Meetings
 
 This week involved conducting meetings and beginning to prepare for the
 integration process of the population counter, temperature and humidity sensing,
 and scale into the final version of Smart Hive.
 
-#### 2.6.2.2 Week 2: Group Project Status Update and Submission of Proposal Inline Citation and Reference Pages
+### 2.6.2.2 Week 2: Group Project Status Update and Submission of Proposal Inline Citation and Reference Pages
 
 The proposal for Smart Hive can be seen earlier in this report under the
 Approved Proposal section.
 
-#### 2.6.2.3 Week 3: App, Web, and Database Software Requirements Specification
+### 2.6.2.3 Week 3: App, Web, and Database Software Requirements Specification
 
 The Software Requirements Specification can be seen in this document under
 section 2.3 Specific Requirements.
 
-#### 2.6.2.4 Week 4: Group Project Status Update
+### 2.6.2.4 Week 4: Group Project Status Update
 
 Kristian,
 
@@ -1492,7 +1492,7 @@ Yurii Sentsiv
 
 Paul Westman
 
-#### 2.6.2.5 Week 5: Technical Report Structure and Mechanics and Content for Abstract, Introduction, and Declaration of Authorship
+### 2.6.2.5 Week 5: Technical Report Structure and Mechanics and Content for Abstract, Introduction, and Declaration of Authorship
 
 This week involved writing the
 [Abstract](https://github.com/pwestman/pwestman.github.io#abstract),
@@ -1500,7 +1500,7 @@ This week involved writing the
 and [Declaration of Joint
 Authorship](https://github.com/pwestman/pwestman.github.io#declaration-of-joint-authorship).
 
-#### 2.6.2.6 Week 6: Group Project Status Update
+### 2.6.2.6 Week 6: Group Project Status Update
 
 Dear Kristian,
 
@@ -1553,13 +1553,13 @@ Team Smart Hive
 
 Roberto Loja, Paul Westman, and Yurii Sentsiv
 
-#### 2.6.2.7 Week 7: App, Web, and Database Independent Demonstration and Merging of Build Instructions Into Body of Technical Report
+### 2.6.2.7 Week 7: App, Web, and Database Independent Demonstration and Merging of Build Instructions Into Body of Technical Report
 
 The mobile app, web data visualization, and the Firebase database were
 demonstrated during this week. Also, the build instructions were merged into
 this technical report, which can be seen above.
 
-#### 2.6.2.8 Week 8: Group Project Status Update
+### 2.6.2.8 Week 8: Group Project Status Update
 
 Hi Kristian,
 
@@ -1619,14 +1619,14 @@ Team Smart Hive
 
 Roberto Loja, Yurii Sentsiv, Paul Westman
 
-#### 2.6.2.9 Week 9: OACETT Basic Requirement Report Checklist
+### 2.6.2.9 Week 9: OACETT Basic Requirement Report Checklist
 
 We went through the OACETT Technical Report Checklist in preparation for the
 final technical report. The checklist can be viewed at
 <https://www.oacett.org/downloads/get_certified/technology_report/Technology_Report_Guidelines.pdf>
 on the last page of the document.
 
-#### 2.6.2.10 Week 10: Group Project Status Update
+### 2.6.2.10 Week 10: Group Project Status Update
 
 Hi Kristian,
 
@@ -1676,25 +1676,25 @@ Team Smart Hive
 
 Yurii Sentsiv, Roberto Loja, and Paul Westman
 
-#### 2.6.2.11 Week 11: Technical Report Due
+### 2.6.2.11 Week 11: Technical Report Due
 
 The final version of this report is due.
 
-#### 2.6.2.12 Week 12: Group Project Status Update
+### 2.6.2.12 Week 12: Group Project Status Update
 
 Refer to <https://pwestman.github.io/> for future status updates.
 
-#### 2.6.2.13 Week 13: Spring Open House Demonstrations
+### 2.6.2.13 Week 13: Spring Open House Demonstrations
 
 The Spring Open House demonstration will take place at Humber College on April
 8, 2017.
 
-#### 2.6.2.14 Week 14: Group Presentations
+### 2.6.2.14 Week 14: Group Presentations
 
 The group presentation will take place during week 14 of the Winter 2017
 semester at Humber College during class time for CENG 355.
 
-#### 2.6.2.15 Week 15: Group Video Script Due, Filming, Demonstration of Project in its Final Form
+### 2.6.2.15 Week 15: Group Video Script Due, Filming, Demonstration of Project in its Final Form
 
 Refer to <https://pwestman.github.io/> for future updates on the script,
 filming, and demonstration of the final version of Smart Hive.
